@@ -1,0 +1,5733 @@
+{
+  "metadata": {
+    "ctime": "1669430597", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "CHA_AGT_NE_AT_0001_DT_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/CHA_AGT_NE_AT_0001_DT_Rig.mb", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/CHA_AGT_NE_AT_0001_DT_Rig.mb"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Desktop/\u52a8\u753b\u91cd\u5b9a\u5411\u6ca1\u6709\u5230\u63a7\u5236\u5668\u4e0a\uff0c\u8dd1\u5230\u5c42\u4e0a\u53bb\u5566.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "Backpack_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 4.1157011310133385e-07
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.8244318823690264e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.5485082130339833e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000002689715597
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000005011460493
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 3.3461777724751106e-05
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 8.303527079857079e-07
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -4.338440145707738e-06
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999997067198089
+        }
+      }
+    }, 
+    "FKIndexFinger2_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.11015784191494049
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0009805599827430456
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.016173806394220946
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0671894023318353
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0207243237406405
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 6.98831585050225
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 80.93222908166733
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 8.21710407106883
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.918022638528908
+        }
+      }
+    }, 
+    "L_Sleeve_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.35101574205337016
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.3080504986731114
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.6297946430915857
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999996316786169
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0398063083968707
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 28.273007362797383
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 3.8683076636699236
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 5.07355179871354
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0224994078160137
+        }
+      }
+    }, 
+    "R_ChestPlate_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.2751116372970444
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 2.515616769353201
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.03647954081415605
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000002934960532
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999479122839
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 9.904938535520934
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.7650273385625406
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.92363024805206
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000003546382639
+        }
+      }
+    }, 
+    "FKMiddleFinger1_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.19646154329322485
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.29051171450043967
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.006036974675190265
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -5.926832468392913
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 47.11432308933658
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 2.4174208623608746
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKMiddleFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.046545598312057734
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.009070442300213699
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.13081998708017295
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.008322690843148581
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.1196795478419994
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.14516001403808187
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "Pelvis_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -7.105427357601002e-15
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.4210854715202004e-14
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.4210854715202004e-14
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999998211860759
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999998211860712
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 8.716756726676277e-07
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.5227434354729205e-05
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -3.752443044999439e-07
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999998211860733
+        }
+      }
+    }, 
+    "FKIndexFinger2_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.0002705465750807434
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.277446677747321e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.0002708888051614622
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.13636101654256538
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -24.99121286353331
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.638561464159199
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKMiddleFinger3_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.3926767482862488e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 5.323612043639514e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.0038396087329602e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -119.48271492413822
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 77.35328424076292
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -134.15952872201203
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKRingFinger2_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.996154333663071e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.277335451912222e-07
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -6.967831069459862e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.8214012926418736
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -27.17078269405744
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 3.415836060143514
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKIndexFinger3_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.5503490473633974e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -8.251986969298741e-07
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.324868972891636e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999916403568
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.824812975739753
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -24.983224764149174
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.19287846751013207
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_FrontShirt_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.094948993975777e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 9.306251058660564e-08
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.969633911220626e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9959881855967736
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0051111878776395
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.1467136046328117
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.5698750663220652
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -5.4953983767413925
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9989322195932786
+        }
+      }
+    }, 
+    "L_BackShirt_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.408765595873774e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -2.48285457260522e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -7.747648567146825e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9975113449108552
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0051555436765247
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 14.715019762232098
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -21.255215993308294
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 34.10789976310661
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9973688168586035
+        }
+      }
+    }, 
+    "FKIndexFinger3_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.06170862861421256
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.0018516381626554335
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.017380075791379568
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.91112993481547
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0297922930029106
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 24.156348329310266
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 97.33694520538131
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 25.14740563876126
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9448646751460186
+        }
+      }
+    }, 
+    "R_Bun_Strand3_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.2453222666408692e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.0617435043658308e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.199186212692439e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000012872455522
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000000656004717
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.0750176938653593
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.11334347279194242
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -1.188193466632799
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999979971481308
+        }
+      }
+    }, 
+    "FKRingFinger2_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.10738676781744516
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.002780857302262074
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.02832179467063156
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -17.62676869742319
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 73.66880380850981
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -23.37200121986972
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKMiddleFinger3_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.0004625005821381478
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.9973713776266777e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.00010351764376537176
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.8806769809724202
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -22.745894380265888
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 5.106359622363519
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_MoveablePivot_FK": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "Fingers_L": {
+      "attrs": {
+        "middleCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "indexCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "spread": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "pinkyCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "thumbCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "ringCurl": {
+          "type": "float", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "FKIKLeg_R": {
+      "attrs": {
+        "FKIKBlend": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "FKVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "IKVis": {
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "L_WeaponPoint_FK_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 180.00162189933656
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.023988695857204867
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0013514781699967022
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.006166985882316368
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -180.00304111747735
+        }, 
+        "ParentSpace": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 180.00157295940036
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "FKPinkyFinger1_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.1869794142280341
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.7467529244638413
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.6170728505604615
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 20.149057885221808
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 64.56226683916088
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 27.290259847099904
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_HipPouch_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.5479137370138005
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -2.6536332982520037
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.359972035004496
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000001185564444
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999392325449
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 8.950873722142994
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.90282625024572
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.6273078717309
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000000614203148
+        }
+      }
+    }, 
+    "FKPinkyFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.21564128523064596
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.6911182235295854
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.2685574107244406
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.504916401375274
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -23.810100697893024
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 4.567873978328928
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "Fingers_R": {
+      "attrs": {
+        "middleCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "indexCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "spread": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "pinkyCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "thumbCurl": {
+          "type": "float", 
+          "value": 0.0
+        }, 
+        "ringCurl": {
+          "type": "float", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "L_HipPouch_Squid_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 2.133419713817858
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.629604006646467
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.5384182461275486e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000002012089368
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999037756904
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 72.0331902779361
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -15.586151789778357
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 60.37952510776998
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999546200479
+        }
+      }
+    }, 
+    "FKThumbFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -5.62926453540058e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -6.856023583523552e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 7.5529923151407274e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -5.918368637531463
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -13.704884226765467
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 4.6720012797775095
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKPinkyFinger3_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -5.315285221740851e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.681455430002643e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 4.360020813720666e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -24.215219315063326
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 100.24304038308055
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -24.747253904737114
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_Wing_Backpack_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.081572588963354e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -5.789002017309031e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.1873102501169797e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.000000141008464
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000000545948257
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.595893286576825e-05
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.4425315607764993e-06
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.276418522205398e-05
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.999999313043674
+        }
+      }
+    }, 
+    "FKThumbFinger3_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -5.26901430930593e-07
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.596750947285841e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.145929653834088e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -9.628615572811102
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 58.13565999319972
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -20.09101793715798
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_SleeveBack_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -7.07997389101417
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.4079389061467431
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.027785914860317007
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9957411087580422
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9878628433121824
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -6.586130468174299
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 6.683075963705252
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 11.000956918600805
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.016693405063003
+        }
+      }
+    }, 
+    "FKScapula_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.2446183954627585
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -4.5081705751301016
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -3.360447541680003
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 18.112901221195205
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.1929532450864537
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 62.64315292515065
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKShoulder_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 5.609004801954143e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 55.58488713901746
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 23.774329868018768
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 30.787457609236426
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKShoulder_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.960330078849438e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.0615883695663797e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.0522080629016273e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -13.928314562712101
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -38.83687772832159
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 73.60110528376626
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_Weapon_FK_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "R_MoveablePivot_FK": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "R_Bang1_01_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.556973020200303e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.696983895906669e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.4128064435681154e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000007311160584
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000006036687161
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 179.99995906315638
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -179.99993681861156
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -179.9998933350833
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999984267982333
+        }
+      }
+    }, 
+    "L_SleeveBot_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -7.857049493332632
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.34844645971028854
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.0009318753290443738
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9949509874068659
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.023968118233854
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.9909263808572529
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -6.423745209052654
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 4.34328111441862
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9815794189079711
+        }
+      }
+    }, 
+    "FKPinkyFinger3_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.0120881467633467e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.8029376270287685e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 5.889535259484546e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.000000176229243
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.580510988114797
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -22.38047193212212
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.7961071787904259
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKThumbFinger1_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.1229991004249484
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.6008279146754774
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.27925686098885194
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 22.4404789586134
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 7.836661642961165
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -28.15494557613096
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKHip_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 52.740105912392444
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -8.743264172448159
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -12.804582459171419
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "C_FrontShirtFlap_1_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.1443936932799943
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.380348843105466
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.08620131073153914
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9958163977461898
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.015857714959569
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -7.700684467768581
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 1.1675382382016732
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -8.762635752291226
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9885912612191315
+        }
+      }
+    }, 
+    "R_Elbow_Twst2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -6.385143080933631e-07
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.926919997316759e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -9.52109814988944e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000001796598814
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000000500490878
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 14.234093623675756
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.00045562074257977025
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0005321221026447942
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.000000571547317
+        }
+      }
+    }, 
+    "L_Weapon_FK_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "FKSpine2_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 1.3932644126568718
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.2950638330337263
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.7941840491261156
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_ChestPlate_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -3.1689335744864167
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -2.6067910840835538
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.7221790637919412
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999998642246795
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000002598860191
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 9.665689060238893
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -10.350076353823606
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -4.687117075883659
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000003527266175
+        }
+      }
+    }, 
+    "R_HairBun_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 5.513574080850958e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.834206770467972e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.04748059147164e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000010499876606
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000008217569953
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 359.1009020334502
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -4.533080170810536
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 1.4114455098204939
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999987243035096
+        }
+      }
+    }, 
+    "L_Bun_Strand2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.1679319363320246e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.4131787224869186e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.9812177297184874e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999987214645731
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000022081189697
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 1.3918749354988253
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.15467400754892832
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.5104265206061843
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999994280477076
+        }
+      }
+    }, 
+    "C_FrontShirt_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 5.659392741108604e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.1652334087084455e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 3.3351592954034004e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9972002514933087
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0074349340045414
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 2.2591700461317172
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.7367650491347613
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 3.4093659664767006
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9952661680973257
+        }
+      }
+    }, 
+    "L_Bang1_01_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 6.797072487074729e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.3412198967444056e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.8717188581263144e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999613529755
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000019320303293
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.892561092955778
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -7.176910410666065
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 5.5860823059661335
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999984642476237
+        }
+      }
+    }, 
+    "R_Strap_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.2681191381878136
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.6746945320454074
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.05653684793859526
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999997021713225
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999997613511562
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 12.733037329232886
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -9.002420518202051
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 23.395290383054913
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999997020125689
+        }
+      }
+    }, 
+    "FKHead_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.00036322586348092045
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.385052995825589e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -6.755689943815923e-05
+        }, 
+        "Global": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 6.305016720080331
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 1.9085631206439624
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.06378213586806826
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_Bang1_02_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 7.310036380658858e-07
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.313694173843416e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.3142706094981804e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.000001245606737
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000000873123675
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 16.382534022557355
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -4.815944062920721
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 6.431459140196555
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999980004820281
+        }
+      }
+    }, 
+    "FKPinkyFinger2_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.4455974842064734e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.038724024406747e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.2941377093511619e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.16645748421673748
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -22.39141486535592
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.8251373912730201
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKThumbFinger3_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 9.782179688500037e-08
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 6.026551389481938e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 3.345506307539381e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -6.685214737460864
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -44.26846199168358
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 13.483322348769041
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKElbow_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 2.6354365800784763e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -5.220466295696724e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.2288272074556517e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0005270836466545728
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.00016941853940423347
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -15.427972235902985
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKIKSpine_M": {
+      "attrs": {
+        "FKIKBlend": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "FKVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "IKVis": {
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "FKIKArm_L": {
+      "attrs": {
+        "FKIKBlend": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "FKVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "IKVis": {
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "Backpack_LowerPlate_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -9.524873281208102e-07
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.9152088057694527e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 9.93462796827771e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000001410084647
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000004863435814
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -8.232481044480684e-06
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -4.395745192754109e-06
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -4.310655372269093e-06
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999992534390685
+        }
+      }
+    }, 
+    "FKIKArm_R": {
+      "attrs": {
+        "FKIKBlend": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "FKVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "IKVis": {
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "L_SleeveTop_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -7.894351725141931
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.3849510928249913
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.09888868259755412
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9943123709176519
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0246756485354938
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 3.3524103056303014
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -4.5393841299995685
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 6.3797317986105
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9815432209246466
+        }
+      }
+    }, 
+    "FKElbow_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.2497172207304175e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.4206203142493905e-07
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.0671554420582652e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.00177088186558243
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.00028741660720687286
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 94.33325170243364
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKPinkyFinger2_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.4967851742931231
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.017137518913319383
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.18766778756349822
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 18.659347152650515
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 84.34467168164383
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 20.57478542856441
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_BeltPouch_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.4698596907659578
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.8372097437587271
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.549627555819967
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.000000077053555
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000001061384118
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -174.03943575924615
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 177.92273951342818
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -177.1616335937332
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999956219763
+        }
+      }
+    }, 
+    "FKSpine3_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0003228755535360506
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.1880812722827585
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.43848989653798043
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -20.54134703692195
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -15.368979428411999
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -1.8827345646353109
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_Bang1_02_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 8.122921144604334e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.452386238222971e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 3.7366235092761713e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000000940556326
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000031274246668
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -14.943842416951995
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -10.49624873241295
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 15.092898415704253
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999967189253337
+        }
+      }
+    }, 
+    "MasterWeaponAim_FK_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.0133873497626343e-05
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.0006294425205356429
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.00011092914054659264
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0009977976468544061
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -89.99999197005167
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "worldControl": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "L_Strap_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.3791711949280767
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 2.6230549013230107
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.38418911712089
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.999999761775956
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999996421418885
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 27.199092859525287
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 6.3197378979770304
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -17.905451752787542
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999997020125703
+        }
+      }
+    }, 
+    "L_Bun_Strand3_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.1169574634095625e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.513850813874342e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.1283671312867227e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.999998721464574
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000019100951558
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.03924562223712555
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.3638952943017475
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.9315851997866642
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.999999308838503
+        }
+      }
+    }, 
+    "R_SleeveBot_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.2067125127004541
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -2.5270133594545996e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.1027989700096441e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999992997680202
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000000486526679
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 359.99999730540145
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 9.978367633372243e-06
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.557912553938762e-06
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999997964731246
+        }
+      }
+    }, 
+    "RootX_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -19.7874309383253
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.3697810052046293
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 3.312045607339342
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -110.92029346695759
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.4058422999269407
+        }, 
+        "CenterBtwFeet": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -3.274865039541572
+        }
+      }
+    }, 
+    "FKScapula_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.7154108582704168
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 2.5091927816825255
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.1578136854875254
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 8.453424438441127
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 20.365813480158735
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 34.6983897243835
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_Hip_Twst2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.3381923756792276e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -4.732517432159966e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -5.983665328557208e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999997621965863
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0486457233520992
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 35.73774154744334
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.0004575931178232441
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.0008956574290248761
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.2008800971024338
+        }
+      }
+    }, 
+    "R_SleeveBack_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.20671731281051997
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.738218282478556e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -9.324291390555572e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999992997680204
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000006057360553
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.0323991495823318e-05
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.6632614195094482e-05
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.082421664481909e-05
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999156824139
+        }
+      }
+    }, 
+    "R_SleeveFront_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.20672855554788505
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.89118594057436e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.1448091857602094e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999992997680212
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000006057360544
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.0323992279530081e-05
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 1.180293864099573e-05
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 1.840938225085598e-05
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999156824134
+        }
+      }
+    }, 
+    "FKMiddleFinger2_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.966342887906649e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.5800132899812525e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.0873206096894137e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.5861557839728144
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -37.099241535567344
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -1.7617039797856684
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_Bang1_03_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -8.203395765349342e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.6476187681746524e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 6.956302755156685e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999988156905597
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000057346447397
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -26.294918671605828
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -4.190650640002633
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -8.213013246735086
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.999995568900955
+        }
+      }
+    }, 
+    "R_Bang2_03_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 6.869133281384165e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -8.468399688155159e-07
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.111008296561522e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999953502732627
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000013352957537
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 7.854089883698801
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 3.1804707152230756
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 9.465654760229723
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.000003374053024
+        }
+      }
+    }, 
+    "MasterWeapon_FK_ctrl": {
+      "attrs": {
+        "L_WeaponVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.0133873497626343e-05
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.0006294425205248682
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.00011092914032771894
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0009977976470065633
+        }, 
+        "WeaponVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "ParentSpace": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -89.99999197005167
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "L_HairBun_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -5.44933301682704e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.3807960193144027e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.5646483337027348e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.999999037634577
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000016839947032
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.07397150506022111
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.36550717985080877
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -1.75879486325859
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999996956051823
+        }
+      }
+    }, 
+    "FKAnkle_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 7.215458069254055e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.3039846531004429e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.6651088500907463e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 24.690998710147113
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -24.500556480897593
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 61.98612044952798
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_SleeveFront_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -7.900991701886355
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.006308447715710486
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0701151403095821
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9937191404550092
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9894609255168233
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.8112904976337291
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.11367838948697963
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.18454091398153602
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0170390222306094
+        }
+      }
+    }, 
+    "R_Hip_Twst2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0036942749228217053
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.028129599246142334
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.023254185161007968
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999996996236051
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.106649533827147
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -3.6206307401905145
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.012011666697291574
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.004435375952609303
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0991687975779352
+        }
+      }
+    }, 
+    "R_BackShirt_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.789127747606443
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.899149726654496
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.7377180229786298
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9953807566605433
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0056088513884494
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.9523093964264153
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.8440644275027788
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.09313851727796503
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9990453180868928
+        }
+      }
+    }, 
+    "R_Bun_Strand2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.8756373069427354e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.0278531703988847e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.9253862049595227e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000012872455526
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000009540281585
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.8495097911936776
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.22129911804211377
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.9163244607540586
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999983547752803
+        }
+      }
+    }, 
+    "MasterWeaponAim_Offset_FK": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "ParentSpace": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "worldControl": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "R_Shoulder_Twst2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.2538585535065998
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.625513819042915
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.38065650564956854
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999993964715469
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999996387230721
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 40.26191119544828
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.6346582725178317
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 1.9035270280059
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999994746893653
+        }
+      }
+    }, 
+    "L_Elbow_Twst2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.11008355048647189
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.12074178904276778
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.6252531539137749
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.000000316967952
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000007017106736
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 8.528647340588131
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 5.25168065686165
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -9.355111582739568
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999997561822725
+        }
+      }
+    }, 
+    "FKAnkle_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.00019009331725072798
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.00013695575261074566
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.00028245540731752783
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -3.5231509430484618
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -17.28889105844312
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -8.110085535907334
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_Bang2_01_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 2.6474747841120916e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -9.131027979947248e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.1018060721189613e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.999998502473275
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.00000195665361
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 10.914545116150482
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -16.893234512161516
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.7189265386061352
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999997196901216
+        }
+      }
+    }, 
+    "FKChest_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_WeaponPoint_FK_ctrl": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 360.00170908723254
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.02907381784598049
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.0003706752867588956
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.002445056173159706
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 8.517941341762364e-06
+        }, 
+        "ParentSpace": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0024642404973825036
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "B_Hair_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 6.73647169226814
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.986328905534407e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.3659481419795867
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000017373534311
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999983475277485
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -13.900360636339572
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 11.348532313918117
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 4.489948915599178
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999747263296
+        }
+      }
+    }, 
+    "R_Bun_Strand1_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.2630544716785153e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.4781654676407925e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 8.622552911674575e-07
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000012872455517
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000007156094097
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.4225838153943963
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.2626300066822165
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.9433824674320098
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999979971481257
+        }
+      }
+    }, 
+    "R_Hair1_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.3549221408582355
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.2302579512058145
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.1718031075625559
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999985049699309
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000001784441528
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -33.77947806306704
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 2.720318402986318
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 44.435937360826756
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999996509866135
+        }
+      }
+    }, 
+    "FKRingFinger3_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 6.643888923463237e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 2.5686467850505323e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.053295500241802e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -8.318284497795451
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 70.60479426359755
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -15.33220872660273
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "Root_FK": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "ParentSpace": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "mirrorAxis": {
+          "type": "enum", 
+          "value": 0
+        }, 
+        "animControl": {
+          "type": "bool", 
+          "value": false
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rigCenter": {
+          "type": "bool", 
+          "value": false
+        }
+      }
+    }, 
+    "L_FrontShirt_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -6.293346984875825e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 7.936270733921447e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 3.2277114740963952e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9962907255711607
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0049711229223897
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 3.1892317870624844
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 2.4476844549987673
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 9.821938535398962
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9987697999945545
+        }
+      }
+    }, 
+    "FKSpine1_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.19167250846420814
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.2224717182307181
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.7676949849568206
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 9.971801917481473
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 13.725201654949782
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.6554697618286599
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "Main": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 4.7980722127756665e-14
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKIndexFinger1_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.18268771991742483
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.21127502328191383
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.10172839182253313
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -9.520464451005777
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 41.07724466506455
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -14.54439120637939
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9670977876457174
+        }
+      }
+    }, 
+    "FKIndexFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.26779625659900574
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.030188972566890016
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.218928204178951
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.3603090691242972
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -7.903232526503098
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.4652522902721495
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKHip_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -3.1482492937091586
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -7.725990647598999
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 28.540439244595223
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_Hair2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -6.34604646069937
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.2040288432046964e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.9498475163821425
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000011100702642
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999989105240088
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -18.016275651053093
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.014499427068598
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 30.52150689221386
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999996217790345
+        }
+      }
+    }, 
+    "L_Bang2_02_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.16328454413820737
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.22606028476209872
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.17161952292994442
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999976543022886
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000018008638227
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -11.087154058658575
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 13.39068259710093
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 16.049736791837987
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.000000485233732
+        }
+      }
+    }, 
+    "FKMiddleFinger2_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.2580273676262834
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.002247963711738521
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.041531814802112876
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 11.988915056946237
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 80.50717053616498
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 14.12478185660596
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_Bang1_03_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -3.4166600300977734e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 5.655790133118899e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 6.3168012189862566e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.000001385080262
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000014227751368
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.5344156501258355
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 16.605693118116015
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.9454704067225026
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999971921505093
+        }
+      }
+    }, 
+    "FKRingFinger3_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.5528113266327637e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.6852796491662048e-07
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -5.196355061798386e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.7044329104943612
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -26.72473418168425
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 3.561177536149532
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKWrist_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.926785301975542e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.445228756504548e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.8682507462463036e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 84.5033685638802
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -70.25746336833538
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 12.378467399479362
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_Sleeve_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.2648671473285482
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.6002323063526376
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.13059797203254675
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999990535151643
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000000539468559
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -24.211033381570942
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.49808710463770584
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 5.01694189442157
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000008925388248
+        }
+      }
+    }, 
+    "FKToes_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -6.81333640439874e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 2.5128364116611124e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.2089919544702868
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.27078879599355155
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 5.1586571517611395
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKRingFinger1_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.023568003949350214
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.46867848301848625
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.0161108109797539
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -11.26474075716984
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 64.45612053917245
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -16.44086034607141
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKKnee_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -4.757902275542847e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.0066260678343042e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -3.5050501061562045e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0003070340671406169
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0017179725377676103
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -12.470811145945765
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKKnee_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 7.957521543744406e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -3.0507305641691573e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.4857375937538109e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.0005846822310679525
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.0014279054599556828
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -10.595634525015535
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKRingFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.024283801672495997
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.59635701489578
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.2573466737627257
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.9648290867764032
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -8.33934162174802
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 5.172075814067019
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "L_Hair2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 3.763609665751403
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.1772030362840198
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.0421481874456688
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999991918592078
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000001519464399
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -39.05251976076949
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 2.7470770906630134e-05
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -21.166707020273147
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999443289732
+        }
+      }
+    }, 
+    "R_Bang2_01_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 1.571694258473144e-05
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.10222439957397e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.794219385648944e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.999998139696348
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000002242373639
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 180.0000687182695
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -180.0000005068894
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -180.00002030046673
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999992007019035
+        }
+      }
+    }, 
+    "FKToes_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -4.107151193366576e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.6854964708131774e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.7264929833847873e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.811783563003686
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.6796131859655463
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 28.804598735712204
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKWrist_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 7.321002040150404e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -4.45298087825563e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -2.5195612607831208e-05
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -14.86714697417852
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 1.4553696531374165
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -6.398777062348643
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKNeck_M": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.3013489796811655
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.03021263619109149
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.025205388475393775
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 9.998283032941508
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 12.259126518940691
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 10.416815981025826
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "R_SleeveTop_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.20672578408892406
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 2.7182125599267692e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -4.233209324411291e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999992997680204
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000007249454321
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -4.911339472484684e-06
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -1.6168226072930238e-05
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 9.38810272052085e-06
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999752870552
+        }
+      }
+    }, 
+    "R_Wing_Backpack_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 4.115415158878477e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 3.0694548058818327e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 2.168803856505974e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000001410084622
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000001883201934
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 1.85333014612334e-05
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -8.359264912590758e-06
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -2.0060661440661175e-05
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999991342298643
+        }
+      }
+    }, 
+    "R_Bang2_02_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.7672882677288726e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.548947649965271e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 4.8888305776984e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999969722312227
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000029285664378
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 46.38045804413005
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 15.81516639374599
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 24.502453765203025
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000003376298445
+        }
+      }
+    }, 
+    "L_Hair1_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.26590186804173754
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.40116230209810766
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.4942501800405159
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999985049698676
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000002022860681
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -18.96019586358558
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 22.126507180746003
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 41.72218056919267
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999998298005149
+        }
+      }
+    }, 
+    "HipSwinger_M": {
+      "attrs": {
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "FKIKLeg_L": {
+      "attrs": {
+        "FKIKBlend": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "FKVis": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "IKVis": {
+          "type": "bool", 
+          "value": true
+        }
+      }
+    }, 
+    "L_Bun_Strand1_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 9.248915503690114e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.83873378698263e-07
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 1.427410964538467e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999987214645746
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000019696999214
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -1.0075050133907482
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.22431486446612384
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.17018057814645018
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999993088385006
+        }
+      }
+    }, 
+    "L_Shoulder_Twst2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.2772053827412648
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.2622466868218396
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.9504852351026827
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999998843958825
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9917450512496869
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -11.821904182434082
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -2.0454449653625484
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 1.949753999710083
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.023956293517824
+        }
+      }
+    }, 
+    "C_BackShirt_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -2.0600856487362762e-07
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 5.931536016134942e-06
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -1.2643089331021429e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9969855480752213
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0076393619721764
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.00037384006688974175
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 6.726456039327479e-06
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0022585325628591267
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9952574294220657
+        }
+      }
+    }, 
+    "FKThumbFinger2_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -8.090734354482265e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.530726848386621e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 3.3246613497794897e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -4.2158885828694155e-05
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -3.324950668147562e-05
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 4.0812258546040075e-05
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "FKThumbFinger2_R": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.10099280920084652
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.04548835471895529
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.015418965570468401
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 1.9719702799093375
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 5.916792071289679
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 1.1018046602885423
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }, 
+    "C_FrontShirtFlap_2_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -0.01586853481740036
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.006545760280840085
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0004540674022379676
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9782389917803962
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0353496405274407
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 1.684587404557895
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 0.013519727089261734
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.047123830909293785
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9870244006040435
+        }
+      }
+    }, 
+    "R_BeltPouch_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.17501951270507732
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.4566805488891781
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -0.7084678078000195
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999998226346601
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999390527319
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -8.709304514159411
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 1.4579667298657464
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -1.754238156730988
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999402894081
+        }
+      }
+    }
+  }
+}

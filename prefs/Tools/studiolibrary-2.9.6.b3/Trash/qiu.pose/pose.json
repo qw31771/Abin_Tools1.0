@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "ctime": "1684460830", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "b:WEP_WP_OPE_1001RN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/WEP_WP_OPE_1001.ma", 
+        "namespace": ":b", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/WEP_WP_OPE_1001.ma"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/A_OPE_1001_LV2_Rload_LV2.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "b:Magazine_Main_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.9902306777368537
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 1.229804237529164e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -5.123206309136827
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999999999994
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000000000000013
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -9.66024924764497e-06
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -6.087835970447486e-06
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 6.66697707174535e-06
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999999999994
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "ctime": "1669429584", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "CHA_AGT_NE_AT_0001_DT_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/CHA_AGT_NE_AT_0001_DT_Rig.mb", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/CHA_AGT_NE_AT_0001_DT_Rig.mb"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Desktop/\u52a8\u753b\u91cd\u5b9a\u5411\u6ca1\u6709\u5230\u63a7\u5236\u5668\u4e0a\uff0c\u8dd1\u5230\u5c42\u4e0a\u53bb\u5566.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "FKShoulder_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -1.4788466984327897e-06
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -1.1612967782070882e-05
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": -4.115532362902741e-06
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -15.268909273573191
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -34.762830309724315
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 72.34495742994446
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+
+RoundedCornerLongTextDialog {
+                border-radius: 5px;
+                background-color: #f0f0f0;
+            }
+
+QTextEdit {
+                border: none;
+                font-family: "YouYuan"; 
+                font-size: 11px; 
+                border-radius: 5px; 
+                background-color: rgb(35,35,35); 
+            }
+
+QPushButton {
+                border-radius: 2.5px;
+                font-family: "YouYuan"; 
+                font-size: 120px; 
+                background-color: rgb(200,103,180);
+                color: white;
+                text-align: center;
+                padding: 5px;
+                transition: background-color 0.3s ease-in-out;
+            }
+QPushButton:hover {
+                background-color: rgb(250,107,180); /* 高亮颜色 */
+            }
+QPushButton:pressed {
+                background-color: rgb(50,50,50);
+            }

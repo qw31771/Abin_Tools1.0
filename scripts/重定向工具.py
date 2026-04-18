@@ -1,0 +1,4 @@
+import newBakeAnimationUI
+from importlib import reload
+reload(newBakeAnimationUI)
+newBakeAnimationUI.bake_Animation_UI()

@@ -1,0 +1,2424 @@
+{
+    "../../Trash": {
+        "category": "studiolibrary-2.9.6.b3", 
+        "name": "Trash", 
+        "modified": 1685331852.6893961, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../Trash", 
+        "folder": "../..", 
+        "type": "Folder", 
+        "icon": "trash.svg"
+    }, 
+    "../../Trash/01 (2).pose": {
+        "category": "Trash", 
+        "name": "01 (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671262036.605787, 
+        "path": "../../Trash/01 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/01.pose": {
+        "category": "Trash", 
+        "name": "01.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671262020.478635, 
+        "path": "../../Trash/01.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/02.anim": {
+        "category": "Trash", 
+        "name": "02.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671421045.014199, 
+        "path": "../../Trash/02.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09AA.anim": {
+        "category": "Trash", 
+        "name": "09AA.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671433778.040899, 
+        "path": "../../Trash/09AA.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09AAA.anim": {
+        "category": "Trash", 
+        "name": "09AAA.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671451489.342586, 
+        "path": "../../Trash/09AAA.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09B (2).anim": {
+        "category": "Trash", 
+        "name": "09B (2).anim", 
+        "modified": 1671432615.262323, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/09B (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09a (2).anim": {
+        "category": "Trash", 
+        "name": "09a (2).anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671425617.477732, 
+        "path": "../../Trash/09a (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09a (3).anim": {
+        "category": "Trash", 
+        "name": "09a (3).anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671425660.929991, 
+        "path": "../../Trash/09a (3).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09a.anim": {
+        "category": "Trash", 
+        "name": "09a.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671425592.928429, 
+        "path": "../../Trash/09a.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09b.anim": {
+        "category": "Trash", 
+        "name": "09b.anim", 
+        "modified": 1671425391.166888, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/09b.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/09pose.pose": {
+        "category": "Trash", 
+        "name": "09pose.pose", 
+        "modified": 1671267262.681613, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/09pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/09s2.anim": {
+        "category": "Trash", 
+        "name": "09s2.anim", 
+        "modified": 1671420402.37538, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/09s2.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/1 (2).anim": {
+        "category": "Trash", 
+        "name": "1 (2).anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1685692376.453929, 
+        "path": "../../Trash/1 (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/1 (2).pose": {
+        "category": "Trash", 
+        "name": "1 (2).pose", 
+        "modified": 1678710760.39476, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/1 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/1 (3).pose": {
+        "category": "Trash", 
+        "name": "1 (3).pose", 
+        "modified": 1684476947.464243, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/1 (3).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/1+10.pose": {
+        "category": "Trash", 
+        "name": "1+10.pose", 
+        "modified": 1678710800.7828, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/1+10.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/1.anim": {
+        "category": "Trash", 
+        "name": "1.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684893993.276253, 
+        "path": "../../Trash/1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/1.pose": {
+        "category": "Trash", 
+        "name": "1.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671261290.362518, 
+        "path": "../../Trash/1.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/1111 (2).pose": {
+        "category": "Trash", 
+        "name": "1111 (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669430597.394341, 
+        "path": "../../Trash/1111 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/1111.pose": {
+        "category": "Trash", 
+        "name": "1111.pose", 
+        "modified": 1669425021.419442, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/1111.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/123 (2).pose": {
+        "category": "Trash", 
+        "name": "123 (2).pose", 
+        "modified": 1684898849.114535, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/123 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/123.pose": {
+        "category": "Trash", 
+        "name": "123.pose", 
+        "modified": 1684392882.9362, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/123.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/13endpose.pose": {
+        "category": "Trash", 
+        "name": "13endpose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671540544.473414, 
+        "path": "../../Trash/13endpose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/14Apoise.pose": {
+        "category": "Trash", 
+        "name": "14Apoise.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671540654.853014, 
+        "path": "../../Trash/14Apoise.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/14pose.pose": {
+        "category": "Trash", 
+        "name": "14pose.pose", 
+        "modified": 1672727299.139652, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/14pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/2 (2).anim": {
+        "category": "Trash", 
+        "name": "2 (2).anim", 
+        "modified": 1684899676.938802, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/2 (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/2 (2).pose": {
+        "category": "Trash", 
+        "name": "2 (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710767.95559, 
+        "path": "../../Trash/2 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/2.anim": {
+        "category": "Trash", 
+        "name": "2.anim", 
+        "modified": 1684899439.672662, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/2.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/2.pose": {
+        "category": "Trash", 
+        "name": "2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669429640.306283, 
+        "path": "../../Trash/2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/22.pose": {
+        "category": "Trash", 
+        "name": "22.pose", 
+        "modified": 1683712861.584334, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/22.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/22222.pose": {
+        "category": "Trash", 
+        "name": "22222.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669430731.92649, 
+        "path": "../../Trash/22222.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/3.mirror": {
+        "category": "Trash", 
+        "name": "3.mirror", 
+        "modified": 1671261298.407683, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../Trash/3.mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/A-POSE.pose": {
+        "category": "Trash", 
+        "name": "A-POSE.pose", 
+        "modified": 1669365845.175817, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/A-POSE.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/AS idle POSE.pose": {
+        "category": "Trash", 
+        "name": "AS idle POSE.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1668563050.417065, 
+        "path": "../../Trash/AS idle POSE.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Aaaaa.anim": {
+        "category": "Trash", 
+        "name": "Aaaaa.anim", 
+        "modified": 1663139244.0198612, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/Aaaaa.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/B.pose": {
+        "category": "Trash", 
+        "name": "B.pose", 
+        "modified": 1663138011.408203, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/B.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/CharSelect_IdlePOSE.pose": {
+        "category": "Trash", 
+        "name": "CharSelect_IdlePOSE.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1681093356.474996, 
+        "path": "../../Trash/CharSelect_IdlePOSE.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Equip LV1.anim": {
+        "category": "Trash", 
+        "name": "Equip LV1.anim", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685691423.399744, 
+        "path": "../../Trash/Equip LV1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/Equip_hand.anim": {
+        "category": "Trash", 
+        "name": "Equip_hand.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684915461.163655, 
+        "path": "../../Trash/Equip_hand.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/IDLEPOSE_FK.pose": {
+        "category": "Trash", 
+        "name": "IDLEPOSE_FK.pose", 
+        "modified": 1684983904.677914, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/IDLEPOSE_FK.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/IdlePose (2).pose": {
+        "category": "Trash", 
+        "name": "IdlePose (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684915747.203579, 
+        "path": "../../Trash/IdlePose (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/IdlePose.pose": {
+        "category": "Trash", 
+        "name": "IdlePose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684823309.080035, 
+        "path": "../../Trash/IdlePose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Idlepoes2 (2).pose": {
+        "category": "Trash", 
+        "name": "Idlepoes2 (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684983279.996011, 
+        "path": "../../Trash/Idlepoes2 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Idlepoes2.pose": {
+        "category": "Trash", 
+        "name": "Idlepoes2.pose", 
+        "modified": 1684983178.706288, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/Idlepoes2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/LHAND2.pose": {
+        "category": "Trash", 
+        "name": "LHAND2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684467582.799781, 
+        "path": "../../Trash/LHAND2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Lfinger.pose": {
+        "category": "Trash", 
+        "name": "Lfinger.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1682561578.608225, 
+        "path": "../../Trash/Lfinger.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Lhand.pose": {
+        "category": "Trash", 
+        "name": "Lhand.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684460534.874593, 
+        "path": "../../Trash/Lhand.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/NEidlepose (2).pose": {
+        "category": "Trash", 
+        "name": "NEidlepose (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678071520.964594, 
+        "path": "../../Trash/NEidlepose (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/NEidlepose.pose": {
+        "category": "Trash", 
+        "name": "NEidlepose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678071514.294253, 
+        "path": "../../Trash/NEidlepose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/NEpose2 (2).pose": {
+        "category": "Trash", 
+        "name": "NEpose2 (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678072234.520455, 
+        "path": "../../Trash/NEpose2 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/NEpose2.pose": {
+        "category": "Trash", 
+        "name": "NEpose2.pose", 
+        "modified": 1678071869.560868, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/NEpose2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/OPE": {
+        "category": "Trash", 
+        "name": "OPE", 
+        "modified": 1684392723.101975, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../Trash/OPE", 
+        "folder": "../../Trash", 
+        "type": "Folder"
+    }, 
+    "../../Trash/OpeFireLv1.anim": {
+        "category": "Trash", 
+        "name": "OpeFireLv1.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684391466.388605, 
+        "path": "../../Trash/OpeFireLv1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/OpeMagIdlePsoe.pose": {
+        "category": "Trash", 
+        "name": "OpeMagIdlePsoe.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684392787.804642, 
+        "path": "../../Trash/OpeMagIdlePsoe.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/RELOAD_L2 (2).anim": {
+        "category": "Trash", 
+        "name": "RELOAD_L2 (2).anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684898941.831986, 
+        "path": "../../Trash/RELOAD_L2 (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/RELOAD_L2.anim": {
+        "category": "Trash", 
+        "name": "RELOAD_L2.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684898422.810322, 
+        "path": "../../Trash/RELOAD_L2.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/RELOAD_lAERY1.anim": {
+        "category": "Trash", 
+        "name": "RELOAD_lAERY1.anim", 
+        "modified": 1684899272.958803, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/RELOAD_lAERY1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/R_hand.pose": {
+        "category": "Trash", 
+        "name": "R_hand.pose", 
+        "modified": 1685331736.546611, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/R_hand.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Rhand.pose": {
+        "category": "Trash", 
+        "name": "Rhand.pose", 
+        "modified": 1675217856.711038, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/Rhand.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Rhandpose1 (2).pose": {
+        "category": "Trash", 
+        "name": "Rhandpose1 (2).pose", 
+        "modified": 1682243078.872939, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/Rhandpose1 (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Rhandpose1 (3).pose": {
+        "category": "Trash", 
+        "name": "Rhandpose1 (3).pose", 
+        "modified": 1682243084.534771, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/Rhandpose1 (3).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/Rhandpose1.pose": {
+        "category": "Trash", 
+        "name": "Rhandpose1.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1682243049.689203, 
+        "path": "../../Trash/Rhandpose1.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/SHE1003POSE.pose": {
+        "category": "Trash", 
+        "name": "SHE1003POSE.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1683712294.993367, 
+        "path": "../../Trash/SHE1003POSE.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/a.mirror": {
+        "category": "Trash", 
+        "name": "a.mirror", 
+        "modified": 1671260561.304095, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../Trash/a.mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/aa.pose": {
+        "category": "Trash", 
+        "name": "aa.pose", 
+        "modified": 1668482578.446434, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/aa.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/b (2).pose": {
+        "category": "Trash", 
+        "name": "b (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1668483613.589876, 
+        "path": "../../Trash/b (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/fire LV1.anim": {
+        "category": "Trash", 
+        "name": "fire LV1.anim", 
+        "modified": 1685691447.383874, 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "path": "../../Trash/fire LV1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/hand_R (2).pose": {
+        "category": "Trash", 
+        "name": "hand_R (2).pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1676865275.035994, 
+        "path": "../../Trash/hand_R (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/hand_R.pose": {
+        "category": "Trash", 
+        "name": "hand_R.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1676865224.396267, 
+        "path": "../../Trash/hand_R.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/idle_pose_FK (2).pose": {
+        "category": "Trash", 
+        "name": "idle_pose_FK (2).pose", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685687821.67032, 
+        "path": "../../Trash/idle_pose_FK (2).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/idle_pose_FK (3).pose": {
+        "category": "Trash", 
+        "name": "idle_pose_FK (3).pose", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685687909.167129, 
+        "path": "../../Trash/idle_pose_FK (3).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/idle_pose_FK (4).pose": {
+        "category": "Trash", 
+        "name": "idle_pose_FK (4).pose", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685689911.65363, 
+        "path": "../../Trash/idle_pose_FK (4).pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/idle_pose_FK.pose": {
+        "category": "Trash", 
+        "name": "idle_pose_FK.pose", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685687722.257273, 
+        "path": "../../Trash/idle_pose_FK.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/ki pose.pose": {
+        "category": "Trash", 
+        "name": "ki pose.pose", 
+        "modified": 1665374558.402351, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/ki pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/layer1.anim": {
+        "category": "Trash", 
+        "name": "layer1.anim", 
+        "modified": 1684892966.887295, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/layer1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/magpose.pose": {
+        "category": "Trash", 
+        "name": "magpose.pose", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685693768.38988, 
+        "path": "../../Trash/magpose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/mi (2).mirror": {
+        "category": "Trash", 
+        "name": "mi (2).mirror", 
+        "modified": 1671262221.920029, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../Trash/mi (2).mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/mi (3).mirror": {
+        "category": "Trash", 
+        "name": "mi (3).mirror", 
+        "modified": 1671262283.636529, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../Trash/mi (3).mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/mi (4).mirror": {
+        "category": "Trash", 
+        "name": "mi (4).mirror", 
+        "modified": 1671262329.308356, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../Trash/mi (4).mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/mi.mirror": {
+        "category": "Trash", 
+        "name": "mi.mirror", 
+        "modified": 1671262192.407219, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../Trash/mi.mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/qb.anim": {
+        "category": "Trash", 
+        "name": "qb.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684315438.139731, 
+        "path": "../../Trash/qb.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/qiu.pose": {
+        "category": "Trash", 
+        "name": "qiu.pose", 
+        "modified": 1684460830.66258, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/qiu.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/qreloadHand.anim": {
+        "category": "Trash", 
+        "name": "qreloadHand.anim", 
+        "modified": 1684374908.467041, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/qreloadHand.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/qs.anim": {
+        "category": "Trash", 
+        "name": "qs.anim", 
+        "modified": 1684315427.112619, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/qs.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/reload LV1.anim": {
+        "category": "Trash", 
+        "name": "reload LV1.anim", 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "modified": 1685691482.500586, 
+        "path": "../../Trash/reload LV1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/reload_LV1 (2).anim": {
+        "category": "Trash", 
+        "name": "reload_LV1 (2).anim", 
+        "modified": 1685692421.217372, 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "path": "../../Trash/reload_LV1 (2).anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/reload_LV1.anim": {
+        "category": "Trash", 
+        "name": "reload_LV1.anim", 
+        "modified": 1685692402.156466, 
+        "__class__": "studiolibrary.libraryitem.LibraryItem", 
+        "path": "../../Trash/reload_LV1.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/reload\u2014\u2014QS.anim": {
+        "category": "Trash", 
+        "name": "reload\u2014\u2014QS.anim", 
+        "modified": 1684898139.114644, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../Trash/reload\u2014\u2014QS.anim", 
+        "folder": "../../Trash", 
+        "type": ".anim"
+    }, 
+    "../../Trash/sc11 pose.pose": {
+        "category": "Trash", 
+        "name": "sc11 pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671269895.673875, 
+        "path": "../../Trash/sc11 pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/so charselect pose.pose": {
+        "category": "Trash", 
+        "name": "so charselect pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1668482564.717055, 
+        "path": "../../Trash/so charselect pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/so idle pose.pose": {
+        "category": "Trash", 
+        "name": "so idle pose.pose", 
+        "modified": 1665300699.1636376, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/so idle pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u4e8c.pose": {
+        "category": "Trash", 
+        "name": "\u4e8c.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669429584.222767, 
+        "path": "../../Trash/\u4e8c.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u4e8c\u4e8c.pose": {
+        "category": "Trash", 
+        "name": "\u4e8c\u4e8c.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669428416.080402, 
+        "path": "../../Trash/\u4e8c\u4e8c.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u4f38\u5c55.pose": {
+        "category": "Trash", 
+        "name": "\u4f38\u5c55.pose", 
+        "modified": 1669365890.986079, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u4f38\u5c55.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u4f38\u5c55\u624b\u81c2pose.pose": {
+        "category": "Trash", 
+        "name": "\u4f38\u5c55\u624b\u81c2pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669431521.703473, 
+        "path": "../../Trash/\u4f38\u5c55\u624b\u81c2pose.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u521d\u59cb\u7ad9\u7acbPOSE.pose": {
+        "category": "Trash", 
+        "name": "\u521d\u59cb\u7ad9\u7acbPOSE.pose", 
+        "modified": 1669431503.794936, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u521d\u59cb\u7ad9\u7acbPOSE.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u554a.mirror": {
+        "category": "Trash", 
+        "name": "\u554a.mirror", 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "modified": 1669454429.555041, 
+        "path": "../../Trash/\u554a.mirror", 
+        "folder": "../../Trash", 
+        "type": ".mirror"
+    }, 
+    "../../Trash/\u5566\u624b\u81c2.pose": {
+        "category": "Trash", 
+        "name": "\u5566\u624b\u81c2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669365916.829733, 
+        "path": "../../Trash/\u5566\u624b\u81c2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u63e1\u62f3.pose": {
+        "category": "Trash", 
+        "name": "\u63e1\u62f3.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1675218010.230572, 
+        "path": "../../Trash/\u63e1\u62f3.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u642d\u624b\u81c2.pose": {
+        "category": "Trash", 
+        "name": "\u642d\u624b\u81c2.pose", 
+        "modified": 1669431536.039132, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u642d\u624b\u81c2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u642d\u624b\u81c22.pose": {
+        "category": "Trash", 
+        "name": "\u642d\u624b\u81c22.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669431551.080085, 
+        "path": "../../Trash/\u642d\u624b\u81c22.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u653e\u75351.pose": {
+        "category": "Trash", 
+        "name": "\u653e\u75351.pose", 
+        "modified": 1669366201.190781, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u653e\u75351.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u653e\u75352.pose": {
+        "category": "Trash", 
+        "name": "\u653e\u75352.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669366219.050282, 
+        "path": "../../Trash/\u653e\u75352.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u653e\u75353.pose": {
+        "category": "Trash", 
+        "name": "\u653e\u75353.pose", 
+        "modified": 1669366230.701528, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u653e\u75353.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u653e\u75354.pose": {
+        "category": "Trash", 
+        "name": "\u653e\u75354.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669366243.074667, 
+        "path": "../../Trash/\u653e\u75354.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u7529\u624b1.pose": {
+        "category": "Trash", 
+        "name": "\u7529\u624b1.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669432161.554776, 
+        "path": "../../Trash/\u7529\u624b1.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u7529\u624b2.pose": {
+        "category": "Trash", 
+        "name": "\u7529\u624b2.pose", 
+        "modified": 1669432172.897792, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u7529\u624b2.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u75350.pose": {
+        "category": "Trash", 
+        "name": "\u75350.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669431752.863772, 
+        "path": "../../Trash/\u75350.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u75351.pose": {
+        "category": "Trash", 
+        "name": "\u75351.pose", 
+        "modified": 1669431768.730669, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u75351.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u75352.pose": {
+        "category": "Trash", 
+        "name": "\u75352.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669431782.251109, 
+        "path": "../../Trash/\u75352.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u75353.pose": {
+        "category": "Trash", 
+        "name": "\u75353.pose", 
+        "modified": 1669431792.392085, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u75353.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u75354.pose": {
+        "category": "Trash", 
+        "name": "\u75354.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669431840.439389, 
+        "path": "../../Trash/\u75354.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u80f8\u7532.pose": {
+        "category": "Trash", 
+        "name": "\u80f8\u7532.pose", 
+        "modified": 1683512515.28798, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../Trash/\u80f8\u7532.pose", 
+        "folder": "../../Trash", 
+        "type": ".pose"
+    }, 
+    "../../Trash/\u9009\u62e9\u96c6": {
+        "category": "Trash", 
+        "name": "\u9009\u62e9\u96c6", 
+        "modified": 1669431121.683189, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../Trash/\u9009\u62e9\u96c6", 
+        "folder": "../../Trash", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__": {
+        "category": "studiolibrary-2.9.6.b3", 
+        "name": "__pycache__", 
+        "modified": 1671260539.8897862, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../__pycache__", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE": {
+        "category": "__pycache__", 
+        "name": "POSE", 
+        "modified": 1684392765.5920558, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../__pycache__/POSE", 
+        "folder": "../../__pycache__", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE/1.anim": {
+        "category": "POSE", 
+        "name": "1.anim", 
+        "modified": 1683687213.98107, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/1.anim", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/123.anim": {
+        "category": "POSE", 
+        "name": "123.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1682558994.350661, 
+        "path": "../../__pycache__/POSE/123.anim", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/22.anim": {
+        "category": "POSE", 
+        "name": "22.anim", 
+        "modified": 1682559479.048996, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/22.anim", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/22.pose": {
+        "category": "POSE", 
+        "name": "22.pose", 
+        "modified": 1683712895.519118, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/22.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/A.pose": {
+        "category": "POSE", 
+        "name": "A.pose", 
+        "modified": 1663138964.173131, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/A.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/AS .pose": {
+        "category": "POSE", 
+        "name": "AS .pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1668563745.497061, 
+        "path": "../../__pycache__/POSE/AS .pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/AS hand.pose": {
+        "category": "POSE", 
+        "name": "AS hand.pose", 
+        "modified": 1669176256.438701, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/AS hand.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA": {
+        "category": "POSE", 
+        "name": "FA", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1682581946.5240254, 
+        "path": "../../__pycache__/POSE/FA", 
+        "folder": "../../__pycache__/POSE", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE/FA/15.pose": {
+        "category": "FA", 
+        "name": "15.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710816.650984, 
+        "path": "../../__pycache__/POSE/FA/15.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/20.pose": {
+        "category": "FA", 
+        "name": "20.pose", 
+        "modified": 1678710824.265112, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/20.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/25.pose": {
+        "category": "FA", 
+        "name": "25.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710830.512605, 
+        "path": "../../__pycache__/POSE/FA/25.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/35.pose": {
+        "category": "FA", 
+        "name": "35.pose", 
+        "modified": 1678710838.738841, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/35.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/42.pose": {
+        "category": "FA", 
+        "name": "42.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710845.545622, 
+        "path": "../../__pycache__/POSE/FA/42.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/48.pose": {
+        "category": "FA", 
+        "name": "48.pose", 
+        "modified": 1678710850.518034, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/48.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/55.pose": {
+        "category": "FA", 
+        "name": "55.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710856.138352, 
+        "path": "../../__pycache__/POSE/FA/55.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/60.pose": {
+        "category": "FA", 
+        "name": "60.pose", 
+        "modified": 1678710861.450831, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/60.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/74.pose": {
+        "category": "FA", 
+        "name": "74.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710867.625205, 
+        "path": "../../__pycache__/POSE/FA/74.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/77.pose": {
+        "category": "FA", 
+        "name": "77.pose", 
+        "modified": 1678710876.251322, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/77.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/80.pose": {
+        "category": "FA", 
+        "name": "80.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678710881.597439, 
+        "path": "../../__pycache__/POSE/FA/80.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/Lfinger.pose": {
+        "category": "FA", 
+        "name": "Lfinger.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1682561585.323481, 
+        "path": "../../__pycache__/POSE/FA/Lfinger.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/Rhandpose1.pose": {
+        "category": "FA", 
+        "name": "Rhandpose1.pose", 
+        "modified": 1682243122.58565, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/Rhandpose1.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/FA/face.pose": {
+        "category": "FA", 
+        "name": "face.pose", 
+        "modified": 1682581946.52203, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/FA/face.pose", 
+        "folder": "../../__pycache__/POSE/FA", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO": {
+        "category": "POSE", 
+        "name": "NENO", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1683512600.1310914, 
+        "path": "../../__pycache__/POSE/NENO", 
+        "folder": "../../__pycache__/POSE", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE/NENO/11.pose": {
+        "category": "NENO", 
+        "name": "11.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1675217877.959901, 
+        "path": "../../__pycache__/POSE/NENO/11.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/CharSelect_IdlePOSE.pose": {
+        "category": "NENO", 
+        "name": "CharSelect_IdlePOSE.pose", 
+        "modified": 1681094947.563869, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/CharSelect_IdlePOSE.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/Lhand.pose": {
+        "category": "NENO", 
+        "name": "Lhand.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1675217925.296693, 
+        "path": "../../__pycache__/POSE/NENO/Lhand.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/MVPPOSE.pose": {
+        "category": "NENO", 
+        "name": "MVPPOSE.pose", 
+        "modified": 1679480562.344364, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/MVPPOSE.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/MVPPOSE2.pose": {
+        "category": "NENO", 
+        "name": "MVPPOSE2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1679486196.409345, 
+        "path": "../../__pycache__/POSE/NENO/MVPPOSE2.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/NEpose2.pose": {
+        "category": "NENO", 
+        "name": "NEpose2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1678085355.280217, 
+        "path": "../../__pycache__/POSE/NENO/NEpose2.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/POSE1": {
+        "category": "NENO", 
+        "name": "POSE1", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1685413113.757483, 
+        "path": "../../__pycache__/POSE/NENO/POSE1", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE/NENO/POSE1/\u63e1\u624b\u7897.pose": {
+        "category": "POSE1", 
+        "name": "\u63e1\u624b\u7897.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685605491.251418, 
+        "path": "../../__pycache__/POSE/NENO/POSE1/\u63e1\u624b\u7897.pose", 
+        "folder": "../../__pycache__/POSE/NENO/POSE1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/Q_P1.pose": {
+        "category": "NENO", 
+        "name": "Q_P1.pose", 
+        "modified": 1685413140.183511, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/Q_P1.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/Q_P2.pose": {
+        "category": "NENO", 
+        "name": "Q_P2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685413177.349669, 
+        "path": "../../__pycache__/POSE/NENO/Q_P2.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/R_POSEb.pose": {
+        "category": "NENO", 
+        "name": "R_POSEb.pose", 
+        "modified": 1676882842.92568, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/R_POSEb.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/aa.mirror": {
+        "category": "NENO", 
+        "name": "aa.mirror", 
+        "modified": 1669454475.377834, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../__pycache__/POSE/NENO/aa.mirror", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".mirror"
+    }, 
+    "../../__pycache__/POSE/NENO/asss.mirror": {
+        "category": "NENO", 
+        "name": "asss.mirror", 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "modified": 1669863347.067934, 
+        "path": "../../__pycache__/POSE/NENO/asss.mirror", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".mirror"
+    }, 
+    "../../__pycache__/POSE/NENO/bb.mirror": {
+        "category": "NENO", 
+        "name": "bb.mirror", 
+        "modified": 1669863450.68787, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../__pycache__/POSE/NENO/bb.mirror", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".mirror"
+    }, 
+    "../../__pycache__/POSE/NENO/face1.pose": {
+        "category": "NENO", 
+        "name": "face1.pose", 
+        "modified": 1678153415.355502, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/face1.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/hand_L.pose": {
+        "category": "NENO", 
+        "name": "hand_L.pose", 
+        "modified": 1676865202.055628, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/hand_L.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/hand_R.pose": {
+        "category": "NENO", 
+        "name": "hand_R.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1676865281.124482, 
+        "path": "../../__pycache__/POSE/NENO/hand_R.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/nePOSE1.pose": {
+        "category": "NENO", 
+        "name": "nePOSE1.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1676896352.953502, 
+        "path": "../../__pycache__/POSE/NENO/nePOSE1.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/vv.mirror": {
+        "category": "NENO", 
+        "name": "vv.mirror", 
+        "modified": 1669454536.347694, 
+        "__class__": "studiolibrarymaya.mirroritem.MirrorItem", 
+        "path": "../../__pycache__/POSE/NENO/vv.mirror", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".mirror"
+    }, 
+    "../../__pycache__/POSE/NENO/\u4f38\u5c55\u624b\u81c2 .pose": {
+        "category": "NENO", 
+        "name": "\u4f38\u5c55\u624b\u81c2 .pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669434462.079608, 
+        "path": "../../__pycache__/POSE/NENO/\u4f38\u5c55\u624b\u81c2 .pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u521d\u59cb\u7ad9\u7acb.pose": {
+        "category": "NENO", 
+        "name": "\u521d\u59cb\u7ad9\u7acb.pose", 
+        "modified": 1669434437.546088, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u521d\u59cb\u7ad9\u7acb.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u5f20\u5f00.pose": {
+        "category": "NENO", 
+        "name": "\u5f20\u5f00.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1675218534.471348, 
+        "path": "../../__pycache__/POSE/NENO/\u5f20\u5f00.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u62931.pose": {
+        "category": "NENO", 
+        "name": "\u62931.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669449932.780692, 
+        "path": "../../__pycache__/POSE/NENO/\u62931.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u62932.pose": {
+        "category": "NENO", 
+        "name": "\u62932.pose", 
+        "modified": 1669449944.134553, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u62932.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u62933.pose": {
+        "category": "NENO", 
+        "name": "\u62933.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669449955.973483, 
+        "path": "../../__pycache__/POSE/NENO/\u62933.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u63e1\u62f3.pose": {
+        "category": "NENO", 
+        "name": "\u63e1\u62f3.pose", 
+        "modified": 1675218028.633881, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u63e1\u62f3.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u642d\u624b1.pose": {
+        "category": "NENO", 
+        "name": "\u642d\u624b1.pose", 
+        "modified": 1669434486.93367, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u642d\u624b1.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u642d\u624b2.pose": {
+        "category": "NENO", 
+        "name": "\u642d\u624b2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669434507.78477, 
+        "path": "../../__pycache__/POSE/NENO/\u642d\u624b2.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u75291.pose": {
+        "category": "NENO", 
+        "name": "\u75291.pose", 
+        "modified": 1669449874.544739, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u75291.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u75292.pose": {
+        "category": "NENO", 
+        "name": "\u75292.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669449905.040842, 
+        "path": "../../__pycache__/POSE/NENO/\u75292.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u75293.pose": {
+        "category": "NENO", 
+        "name": "\u75293.pose", 
+        "modified": 1669449916.62675, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u75293.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u7ed3\u75291.pose": {
+        "category": "NENO", 
+        "name": "\u7ed3\u75291.pose", 
+        "modified": 1669449976.28705, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u7ed3\u75291.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u7ed3\u75292.pose": {
+        "category": "NENO", 
+        "name": "\u7ed3\u75292.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669449994.21621, 
+        "path": "../../__pycache__/POSE/NENO/\u7ed3\u75292.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u7ed3\u75293.pose": {
+        "category": "NENO", 
+        "name": "\u7ed3\u75293.pose", 
+        "modified": 1669450012.108488, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/NENO/\u7ed3\u75293.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u80f8\u7532.pose": {
+        "category": "NENO", 
+        "name": "\u80f8\u7532.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1683512600.130115, 
+        "path": "../../__pycache__/POSE/NENO/\u80f8\u7532.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/NENO/\u9009\u62e9\u96c6.pose": {
+        "category": "NENO", 
+        "name": "\u9009\u62e9\u96c6.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1669430796.948761, 
+        "path": "../../__pycache__/POSE/NENO/\u9009\u62e9\u96c6.pose", 
+        "folder": "../../__pycache__/POSE/NENO", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE": {
+        "category": "POSE", 
+        "name": "OPE", 
+        "modified": 1685332058.8469603, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../__pycache__/POSE/OPE", 
+        "folder": "../../__pycache__/POSE", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE/OPE/1.anim": {
+        "category": "OPE", 
+        "name": "1.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684894225.579936, 
+        "path": "../../__pycache__/POSE/OPE/1.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/2.anim": {
+        "category": "OPE", 
+        "name": "2.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684899828.987243, 
+        "path": "../../__pycache__/POSE/OPE/2.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/22222pose.pose": {
+        "category": "OPE", 
+        "name": "22222pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685332058.845894, 
+        "path": "../../__pycache__/POSE/OPE/22222pose.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/Equip_QS.anim": {
+        "category": "OPE", 
+        "name": "Equip_QS.anim", 
+        "modified": 1684893669.307995, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/Equip_QS.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/Equip_hand.anim": {
+        "category": "OPE", 
+        "name": "Equip_hand.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684918309.571294, 
+        "path": "../../__pycache__/POSE/OPE/Equip_hand.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/IDLEPOSE_FK.pose": {
+        "category": "OPE", 
+        "name": "IDLEPOSE_FK.pose", 
+        "modified": 1685326547.116645, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/OPE/IDLEPOSE_FK.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/MAG_Reload_LV1.anim": {
+        "category": "OPE", 
+        "name": "MAG_Reload_LV1.anim", 
+        "modified": 1685348649.363037, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/MAG_Reload_LV1.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/OpeMagIdlePsoe.pose": {
+        "category": "OPE", 
+        "name": "OpeMagIdlePsoe.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1684392867.853225, 
+        "path": "../../__pycache__/POSE/OPE/OpeMagIdlePsoe.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/RELOAD_L2.anim": {
+        "category": "OPE", 
+        "name": "RELOAD_L2.anim", 
+        "modified": 1684899045.434119, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/RELOAD_L2.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/RELOAD_l1.anim": {
+        "category": "OPE", 
+        "name": "RELOAD_l1.anim", 
+        "modified": 1684898400.681351, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/RELOAD_l1.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/RELOAD_lAERY1.anim": {
+        "category": "OPE", 
+        "name": "RELOAD_lAERY1.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684912292.351218, 
+        "path": "../../__pycache__/POSE/OPE/RELOAD_lAERY1.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/R_hand.pose": {
+        "category": "OPE", 
+        "name": "R_hand.pose", 
+        "modified": 1685331852.762864, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/OPE/R_hand.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/SZ_IDLEPOSE.pose": {
+        "category": "OPE", 
+        "name": "SZ_IDLEPOSE.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685327012.258635, 
+        "path": "../../__pycache__/POSE/OPE/SZ_IDLEPOSE.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/fire.anim": {
+        "category": "OPE", 
+        "name": "fire.anim", 
+        "modified": 1684896949.365668, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/fire.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/mag_T.pose": {
+        "category": "OPE", 
+        "name": "mag_T.pose", 
+        "modified": 1685496926.626031, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/OPE/mag_T.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/magaPOSE.pose": {
+        "category": "OPE", 
+        "name": "magaPOSE.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685347843.996551, 
+        "path": "../../__pycache__/POSE/OPE/magaPOSE.pose", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1": {
+        "category": "OPE", 
+        "name": "ope1", 
+        "modified": 1685687682.792008, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../__pycache__/POSE/OPE/ope1", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/equip_LV1.anim": {
+        "category": "ope1", 
+        "name": "equip_LV1.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1685692303.780037, 
+        "path": "../../__pycache__/POSE/OPE/ope1/equip_LV1.anim", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/fire_LV1.anim": {
+        "category": "ope1", 
+        "name": "fire_LV1.anim", 
+        "modified": 1685692338.433478, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/ope1/fire_LV1.anim", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/idle_pose_FK.pose": {
+        "category": "ope1", 
+        "name": "idle_pose_FK.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685689915.181182, 
+        "path": "../../__pycache__/POSE/OPE/ope1/idle_pose_FK.pose", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/idlepose.pose": {
+        "category": "ope1", 
+        "name": "idlepose.pose", 
+        "modified": 1685690641.91253, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/OPE/ope1/idlepose.pose", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/magpose.pose": {
+        "category": "ope1", 
+        "name": "magpose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1685693801.602053, 
+        "path": "../../__pycache__/POSE/OPE/ope1/magpose.pose", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/r.anim": {
+        "category": "ope1", 
+        "name": "r.anim", 
+        "modified": 1685693532.609083, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/ope1/r.anim", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/ope1/reload_LV1.anim": {
+        "category": "ope1", 
+        "name": "reload_LV1.anim", 
+        "modified": 1685692429.954338, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/ope1/reload_LV1.anim", 
+        "folder": "../../__pycache__/POSE/OPE/ope1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/reload_lashuang.anim": {
+        "category": "OPE", 
+        "name": "reload_lashuang.anim", 
+        "modified": 1684911793.979253, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/reload_lashuang.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/reload\u2014\u2014QS.anim": {
+        "category": "OPE", 
+        "name": "reload\u2014\u2014QS.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684900010.388533, 
+        "path": "../../__pycache__/POSE/OPE/reload\u2014\u2014QS.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/sb.anim": {
+        "category": "OPE", 
+        "name": "sb.anim", 
+        "modified": 1684912140.442127, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/OPE/sb.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/OPE/\u5927\u817f.anim": {
+        "category": "OPE", 
+        "name": "\u5927\u817f.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1684912580.070995, 
+        "path": "../../__pycache__/POSE/OPE/\u5927\u817f.anim", 
+        "folder": "../../__pycache__/POSE/OPE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/S.anim": {
+        "category": "POSE", 
+        "name": "S.anim", 
+        "modified": 1670980646.654516, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/POSE/S.anim", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/SHE 1003 idle pose.pose": {
+        "category": "POSE", 
+        "name": "SHE 1003 idle pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1683713670.277114, 
+        "path": "../../__pycache__/POSE/SHE 1003 idle pose.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/SHE1003POSE.pose": {
+        "category": "POSE", 
+        "name": "SHE1003POSE.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1683712306.293788, 
+        "path": "../../__pycache__/POSE/SHE1003POSE.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/aaaaaaaaaaa.anim": {
+        "category": "POSE", 
+        "name": "aaaaaaaaaaa.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1670920772.698958, 
+        "path": "../../__pycache__/POSE/aaaaaaaaaaa.anim", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/POSE/offset.pose": {
+        "category": "POSE", 
+        "name": "offset.pose", 
+        "path": "../../__pycache__/POSE/offset.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose", 
+        "modified": 1686040312.705583, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem"
+    }, 
+    "../../__pycache__/POSE/sheLhandPose.pose": {
+        "category": "POSE", 
+        "name": "sheLhandPose.pose", 
+        "modified": 1686038701.000768, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/sheLhandPose.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/POSE/so.pose": {
+        "category": "POSE", 
+        "name": "so.pose", 
+        "modified": 1668492492.804366, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/POSE/so.pose", 
+        "folder": "../../__pycache__/POSE", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1": {
+        "category": "__pycache__", 
+        "name": "xinshouguan0.1", 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "modified": 1672729653.917813, 
+        "path": "../../__pycache__/xinshouguan0.1", 
+        "folder": "../../__pycache__", 
+        "type": "Folder"
+    }, 
+    "../../__pycache__/xinshouguan0.1/09 pose.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "09 pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671440479.672279, 
+        "path": "../../__pycache__/xinshouguan0.1/09 pose.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/09AA.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "09AA.anim", 
+        "modified": 1671451694.818121, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/xinshouguan0.1/09AA.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/09B.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "09B.anim", 
+        "modified": 1671454213.810041, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/xinshouguan0.1/09B.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/09a.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "09a.anim", 
+        "modified": 1671432193.043094, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/xinshouguan0.1/09a.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/09a.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "09a.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671432203.051216, 
+        "path": "../../__pycache__/xinshouguan0.1/09a.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/1.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "1.pose", 
+        "modified": 1671270208.995822, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/xinshouguan0.1/1.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/10POSE.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "10POSE.pose", 
+        "modified": 1671440994.699453, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/xinshouguan0.1/10POSE.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/14.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "14.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1672728553.889021, 
+        "path": "../../__pycache__/xinshouguan0.1/14.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/14a.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "14a.anim", 
+        "modified": 1672729283.434503, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/xinshouguan0.1/14a.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/14b.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "14b.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1672729653.728782, 
+        "path": "../../__pycache__/xinshouguan0.1/14b.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/14pose.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "14pose.pose", 
+        "modified": 1672728535.059197, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/xinshouguan0.1/14pose.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/15pose.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "15pose.pose", 
+        "modified": 1671540943.51409, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../__pycache__/xinshouguan0.1/15pose.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/2.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "2.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671270220.170249, 
+        "path": "../../__pycache__/xinshouguan0.1/2.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/SC 02 PH 10.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "SC 02 PH 10.anim", 
+        "modified": 1671681498.986149, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/xinshouguan0.1/SC 02 PH 10.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/SC02 PH011.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "SC02 PH011.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671681433.372335, 
+        "path": "../../__pycache__/xinshouguan0.1/SC02 PH011.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/SC02PH09.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "SC02PH09.anim", 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "modified": 1671681546.908887, 
+        "path": "../../__pycache__/xinshouguan0.1/SC02PH09.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/SC03PH04.anim": {
+        "category": "xinshouguan0.1", 
+        "name": "SC03PH04.anim", 
+        "modified": 1671681688.568901, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../__pycache__/xinshouguan0.1/SC03PH04.anim", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".anim"
+    }, 
+    "../../__pycache__/xinshouguan0.1/cs11 pose.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "cs11 pose.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671269994.349251, 
+        "path": "../../__pycache__/xinshouguan0.1/cs11 pose.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../__pycache__/xinshouguan0.1/ph face.pose": {
+        "category": "xinshouguan0.1", 
+        "name": "ph face.pose", 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "modified": 1671683296.302462, 
+        "path": "../../__pycache__/xinshouguan0.1/ph face.pose", 
+        "folder": "../../__pycache__/xinshouguan0.1", 
+        "type": ".pose"
+    }, 
+    "../../config": {
+        "category": "studiolibrary-2.9.6.b3", 
+        "name": "config", 
+        "modified": 1663137328.4342804, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../config", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../src": {
+        "category": "studiolibrary-2.9.6.b3", 
+        "name": "src", 
+        "modified": 1663137330.0504432, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src", 
+        "folder": "../..", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils": {
+        "category": "src", 
+        "name": "mutils", 
+        "modified": 1668482532.1555016, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/mutils", 
+        "folder": "../../src", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils/__pycache__": {
+        "category": "mutils", 
+        "name": "__pycache__", 
+        "modified": 1663137415.7072437, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/mutils/__pycache__", 
+        "folder": "../../src/mutils", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils/gui": {
+        "category": "mutils", 
+        "name": "gui", 
+        "modified": 1668482532.14852, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/mutils/gui", 
+        "folder": "../../src/mutils", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils/gui/__pycache__": {
+        "category": "gui", 
+        "name": "__pycache__", 
+        "modified": 1663137415.7032542, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/mutils/gui/__pycache__", 
+        "folder": "../../src/mutils/gui", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils/tests": {
+        "category": "mutils", 
+        "name": "tests", 
+        "modified": 1663137328.5454009, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/mutils/tests", 
+        "folder": "../../src/mutils", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils/tests/data": {
+        "category": "tests", 
+        "name": "data", 
+        "modified": 1663137328.674103, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/mutils/tests/data", 
+        "folder": "../../src/mutils/tests", 
+        "type": "Folder"
+    }, 
+    "../../src/mutils/tests/data/animation.anim": {
+        "category": "data", 
+        "name": "animation.anim", 
+        "modified": 1624538317.0, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../src/mutils/tests/data/animation.anim", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".anim"
+    }, 
+    "../../src/mutils/tests/data/test_bake_connected.anim": {
+        "category": "data", 
+        "name": "test_bake_connected.anim", 
+        "modified": 1663137328.600159, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../src/mutils/tests/data/test_bake_connected.anim", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".anim"
+    }, 
+    "../../src/mutils/tests/data/test_load_insert.anim": {
+        "category": "data", 
+        "name": "test_load_insert.anim", 
+        "modified": 1663137328.614309, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../src/mutils/tests/data/test_load_insert.anim", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".anim"
+    }, 
+    "../../src/mutils/tests/data/test_load_replace.anim": {
+        "category": "data", 
+        "name": "test_load_replace.anim", 
+        "modified": 1663137328.6288483, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../src/mutils/tests/data/test_load_replace.anim", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".anim"
+    }, 
+    "../../src/mutils/tests/data/test_load_replace_completely.anim": {
+        "category": "data", 
+        "name": "test_load_replace_completely.anim", 
+        "modified": 1663137328.6459498, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../src/mutils/tests/data/test_load_replace_completely.anim", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".anim"
+    }, 
+    "../../src/mutils/tests/data/test_non_unique_names.pose": {
+        "category": "data", 
+        "name": "test_non_unique_names.pose", 
+        "modified": 1624538317.0, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../src/mutils/tests/data/test_non_unique_names.pose", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".pose"
+    }, 
+    "../../src/mutils/tests/data/test_older_version.anim": {
+        "category": "data", 
+        "name": "test_older_version.anim", 
+        "modified": 1663137328.6623356, 
+        "__class__": "studiolibrarymaya.animitem.AnimItem", 
+        "path": "../../src/mutils/tests/data/test_older_version.anim", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".anim"
+    }, 
+    "../../src/mutils/tests/data/test_pose.pose": {
+        "category": "data", 
+        "name": "test_pose.pose", 
+        "modified": 1624538317.0, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../src/mutils/tests/data/test_pose.pose", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".pose"
+    }, 
+    "../../src/mutils/tests/data/test_poseplugin.pose": {
+        "category": "data", 
+        "name": "test_poseplugin.pose", 
+        "modified": 1663137328.6780941, 
+        "__class__": "studiolibrarymaya.poseitem.PoseItem", 
+        "path": "../../src/mutils/tests/data/test_poseplugin.pose", 
+        "folder": "../../src/mutils/tests/data", 
+        "type": ".pose"
+    }, 
+    "../../src/studiolibrary": {
+        "category": "src", 
+        "name": "studiolibrary", 
+        "modified": 1668482532.175448, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary", 
+        "folder": "../../src", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/__pycache__": {
+        "category": "studiolibrary", 
+        "name": "__pycache__", 
+        "modified": 1663137415.7207294, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/__pycache__", 
+        "folder": "../../src/studiolibrary", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/config": {
+        "category": "studiolibrary", 
+        "name": "config", 
+        "modified": 1663137328.7264137, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/config", 
+        "folder": "../../src/studiolibrary", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/resource": {
+        "category": "studiolibrary", 
+        "name": "resource", 
+        "modified": 1663137329.427275, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/resource", 
+        "folder": "../../src/studiolibrary", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/resource/css": {
+        "category": "resource", 
+        "name": "css", 
+        "modified": 1663137328.7381468, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/resource/css", 
+        "folder": "../../src/studiolibrary/resource", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/resource/fonts": {
+        "category": "resource", 
+        "name": "fonts", 
+        "modified": 1663137329.420293, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/resource/fonts", 
+        "folder": "../../src/studiolibrary/resource", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/resource/icons": {
+        "category": "resource", 
+        "name": "icons", 
+        "modified": 1663137329.76655, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/resource/icons", 
+        "folder": "../../src/studiolibrary/resource", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/widgets": {
+        "category": "studiolibrary", 
+        "name": "widgets", 
+        "modified": 1668482531.9787776, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/widgets", 
+        "folder": "../../src/studiolibrary", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/widgets/__pycache__": {
+        "category": "widgets", 
+        "name": "__pycache__", 
+        "modified": 1663137415.6133313, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/widgets/__pycache__", 
+        "folder": "../../src/studiolibrary/widgets", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/widgets/itemswidget": {
+        "category": "widgets", 
+        "name": "itemswidget", 
+        "modified": 1668482531.957833, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/widgets/itemswidget", 
+        "folder": "../../src/studiolibrary/widgets", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/widgets/itemswidget/__pycache__": {
+        "category": "itemswidget", 
+        "name": "__pycache__", 
+        "modified": 1663137415.5925095, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/widgets/itemswidget/__pycache__", 
+        "folder": "../../src/studiolibrary/widgets/itemswidget", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/widgets/sidebarwidget": {
+        "category": "widgets", 
+        "name": "sidebarwidget", 
+        "modified": 1668482531.9136763, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/widgets/sidebarwidget", 
+        "folder": "../../src/studiolibrary/widgets", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrary/widgets/sidebarwidget/__pycache__": {
+        "category": "sidebarwidget", 
+        "name": "__pycache__", 
+        "modified": 1663137415.5621142, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrary/widgets/sidebarwidget/__pycache__", 
+        "folder": "../../src/studiolibrary/widgets/sidebarwidget", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrarymaya": {
+        "category": "src", 
+        "name": "studiolibrarymaya", 
+        "modified": 1668482649.5844347, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrarymaya", 
+        "folder": "../../src", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrarymaya/__pycache__": {
+        "category": "studiolibrarymaya", 
+        "name": "__pycache__", 
+        "modified": 1663137782.0012596, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrarymaya/__pycache__", 
+        "folder": "../../src/studiolibrarymaya", 
+        "type": "Folder"
+    }, 
+    "../../src/studiolibrarymaya/icons": {
+        "category": "studiolibrarymaya", 
+        "name": "icons", 
+        "modified": 1663137330.013689, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiolibrarymaya/icons", 
+        "folder": "../../src/studiolibrarymaya", 
+        "type": "Folder"
+    }, 
+    "../../src/studioqt": {
+        "category": "src", 
+        "name": "studioqt", 
+        "modified": 1668482531.6721334, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studioqt", 
+        "folder": "../../src", 
+        "type": "Folder"
+    }, 
+    "../../src/studioqt/__pycache__": {
+        "category": "studioqt", 
+        "name": "__pycache__", 
+        "modified": 1663137415.4559019, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studioqt/__pycache__", 
+        "folder": "../../src/studioqt", 
+        "type": "Folder"
+    }, 
+    "../../src/studiovendor": {
+        "category": "src", 
+        "name": "studiovendor", 
+        "modified": 1668482531.6383777, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiovendor", 
+        "folder": "../../src", 
+        "type": "Folder"
+    }, 
+    "../../src/studiovendor/__pycache__": {
+        "category": "studiovendor", 
+        "name": "__pycache__", 
+        "modified": 1663137415.4460795, 
+        "__class__": "studiolibrary.folderitem.FolderItem", 
+        "path": "../../src/studiovendor/__pycache__", 
+        "folder": "../../src/studiovendor", 
+        "type": "Folder"
+    }
+}

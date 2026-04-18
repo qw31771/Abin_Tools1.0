@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "ctime": "1684476947", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "FPP_Core_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/FPP_Core_Rig.mb", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/FPP_Core_Rig.mb"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/A_OPE_1001_LV2_Rload_LV1.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "IKArm_L": {
+      "attrs": {
+        "Fatness1": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "Fatness2": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -25.554827046984975
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 41.08459949801339
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 49.21003319192338
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -126.42899903348305
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000000932942377
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000001865884867
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "volume": {
+          "type": "double", 
+          "value": 10.0
+        }, 
+        "Lenght2": {
+          "type": "double", 
+          "value": 0.974491074769313
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -373.26679788614604
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999740849372
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 180.96964612102755
+        }, 
+        "follow": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "antiPop": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "stretchy": {
+          "type": "double", 
+          "value": 10.0
+        }, 
+        "Lenght1": {
+          "type": "double", 
+          "value": 1.02779959703201
+        }
+      }
+    }
+  }
+}

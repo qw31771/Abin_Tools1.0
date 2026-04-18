@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/A_OPE_1001_LV2_Rload_LV1.mb", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 270, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "FPP_Core_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/FPP_Core_Rig.mb", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/FPP_Core_Rig.mb"
+      }
+    ], 
+    "user": "bazziwang", 
+    "startFrame": 155, 
+    "timeUnit": "ntscf", 
+    "mayaVersion": "2022", 
+    "ctime": "1684374908"
+  }
+,
+  "objects": {
+    "IKArm_R": {
+      "attrs": {
+        "Fatness1": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "Fatness2": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "translateX": {
+          "curve": "CURVE1", 
+          "type": "doubleLinear", 
+          "value": 23.143930880965623
+        }, 
+        "translateY": {
+          "curve": "CURVE2", 
+          "type": "doubleLinear", 
+          "value": 28.122787019195655
+        }, 
+        "translateZ": {
+          "curve": "CURVE3", 
+          "type": "doubleLinear", 
+          "value": 5.893126115696606
+        }, 
+        "rotateY": {
+          "curve": "CURVE4", 
+          "type": "doubleAngle", 
+          "value": 23.163739259109818
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999998211860657
+        }, 
+        "scaleY": {
+          "curve": "CURVE5", 
+          "type": "double", 
+          "value": 0.9999998211860657
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "volume": {
+          "type": "double", 
+          "value": 10.0
+        }, 
+        "Lenght2": {
+          "curve": "CURVE6", 
+          "type": "double", 
+          "value": 0.9781045681079964
+        }, 
+        "rotateZ": {
+          "curve": "CURVE7", 
+          "type": "doubleAngle", 
+          "value": 23.980299527138772
+        }, 
+        "scaleZ": {
+          "curve": "CURVE8", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "rotateX": {
+          "curve": "CURVE9", 
+          "type": "doubleAngle", 
+          "value": -61.214740129101344
+        }, 
+        "follow": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "antiPop": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "stretchy": {
+          "curve": "CURVE10", 
+          "type": "double", 
+          "value": 10.0
+        }, 
+        "Lenght1": {
+          "curve": "CURVE11", 
+          "type": "double", 
+          "value": 1.0249991196286463
+        }
+      }
+    }
+  }
+}

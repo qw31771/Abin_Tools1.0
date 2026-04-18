@@ -1,0 +1,1694 @@
+{
+  "metadata": {
+    "mirrorPlane": [
+      1, 
+      -1, 
+      1
+    ], 
+    "right": "_r_", 
+    "description": "", 
+    "mayaVersion": "2022", 
+    "version": "1.0.0", 
+    "references": [], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u65b0\u624b\u5173 \u52a8\u753b\u8d44\u6e90/\u65b0\u624b\u51730.2/MAYA\u521d\u7248\u6570\u636e/CHA_AGT_JE_AT_0001_DT_Rig.ma", 
+    "left": "L_*", 
+    "ctime": "1671262329"
+  }
+,
+  "objects": {
+    "ac_loc_EyeBrow_ctrl_06": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_07": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_04": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Hair3_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_02": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_03": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Eyelid_Corner_r_L_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKMiddleFinger1_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_08": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_09": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_L_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_L_ctrl_03": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_L_ctrl_02": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_L_ctrl_04": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_EyeCorner_In_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Belt_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Pelvis_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "M_Tongue_03_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKIndexFinger2_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "M_Tongue_02_Fk_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKMiddleFinger3_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKRingFinger2_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKIndexFinger3_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Eyelid_Up_Mid_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Ponytail5_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Brow_Mid_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKScapula_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Collar_03_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_ClothFlap_01_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_Hair5_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "MasterWeaponAim_Offset_FK": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKRingFinger2_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Collar_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKMiddleFinger3_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Up_Teeth_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Bot_Teeth_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_CheekUp_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "M_Brow_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_MoveablePivot_FK": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Eyelid_up_L_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Fingers_L": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "ac_loc_UpperLip_ctrl_05": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_UpperLip_ctrl_04": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_BeltCloth_01_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_UpperLip_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Hair1_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_UpperLip_ctrl_03": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_UpperLip_ctrl_02": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_CheekMid_L_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Eyelid_dw_R_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKIndexFinger2_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Sash_Base_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "Fingers_R": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_Cheek_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Collar_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "RollToesEnd_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKThumbFinger1_L": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "IKLeg_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKPinkyFinger3_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Dagger_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Eyelid_Up_Base_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKThumbFinger3_R": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKMiddleFinger1_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKShoulder_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKShoulder_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_CheekUp_L_ctrl_02": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_MoveablePivot_FK": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_LowerLip_Mid_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Eyelid_up_R_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "IKLeg_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKPinkyFinger3_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_ClothFlap_01_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_NoseUpper_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Hair6_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_Eyeball_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_EyeCorner_In_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "RollHeel_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "RollHeel_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Weapon_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_WeaponPoint_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Brow_Mid_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Elbow_Twst2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "Ponytail4_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Hair_Bang1_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_CheekUp_L_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "RollToes_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Eyelid_Corner_r_R_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Belt_03_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Weapon_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Dagger_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "RollToes_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKHead_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_R_ctrl_02": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKPinkyFinger2_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKThumbFinger3_L": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKElbow_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKIKSpine_M": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Belt_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKIKArm_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_CheekUp_R_ctrl_02": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_CheekUp_R_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKIKArm_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Hair3_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKElbow_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKPinkyFinger2_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Nose_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Eyelid_Corner_l_R_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Eyelid_Bot_Base_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKSpine3_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Eyeball_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_LowerLip_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Eyelid_Corner_l_L_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Hair7_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "ac_loc_CheekMid_R_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Ponytail6_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "MasterWeaponAim_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKThumbFinger1_R": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "M_Tongue_01_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Eyelid_Bot_Base_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_EyeCorner_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "RootX_M": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Ponytail2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKScapula_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_Hip_Twst2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_03": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_04": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_05": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_06": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_07": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Ponytail1_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Sash_01_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKMiddleFinger2_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "M_Chin_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Hair4_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "PoleLeg_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Nose_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "M_UpperLip_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_CheekMid_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Belt_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "MasterWeapon_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "PoleLeg_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_NoseCrease_In_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_NoseCreaseUp_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_NoseCreaseUp_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Hip_Twst2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_Hair5_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_NoseCrease_In_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKIndexFinger3_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Sash_03_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "UpperLip_root_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Weapon_Ctrl_Grp_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_Shoulder_Twst2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_Elbow_Twst2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKIKLeg_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Hair_Bang2_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKChest_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Camera_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKSpine2_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_Chin_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Hair6_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_Brow_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Jaw_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Chin_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Chin_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Eyelid_root_ctrl_L": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_Eyelid_Up_Base_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Hair1_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_LowerLip_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Brow_In_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKRingFinger3_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Root_FK": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "R_LipCorner_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Belt_02_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKSpine1_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Eyelid_root_ctrl_R": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_Brow_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKIndexFinger1_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "ac_loc_EyeBrow_ctrl_05": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_BeltCloth_02_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "RollToesEnd_R": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Hair2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_Eyelid_Bot_Mid_FK_ctrl_grp|L_Eyelid_Bot_Mid_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_EyeCorner_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Belt_04_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKMiddleFinger2_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Sash_04_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKRingFinger3_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Main_root": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKWrist_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKIndexFinger1_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Main": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Hair4_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_Belt_03_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_LowerLip_ctrl_02": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKRingFinger1_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_NoseUpper_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_R_ctrl_03": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_WeaponPoint_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_R_ctrl_01": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKRingFinger1_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "IKToes_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_UpperLip_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Hair2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "ac_loc_Cheek_Out_R_ctrl_04": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "Eyeball_root_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_Eyelid_Bot_Mid_FK_ctrl_grp1|L_Eyelid_Bot_Mid_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "Ponytail3_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_LowerLip_Mid_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKRoot_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKWrist_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_Eyelid_Up_Mid_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "FKNeck_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "LowerLip_root_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Brow_Out_01_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKPinkyFinger1_R": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Sash_05_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "HipSwinger_M": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKIKLeg_L": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_UpperLip_Mid_02_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_UpperLip_Mid_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_Brow_In_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Brow_Out_01_Fk_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "R_Eyelid_Bot_Mid_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_CheekUp_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_Shoulder_Twst2_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "ac_loc_Eyelid_dw_L_ctrl_01": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "M_LowerLip_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "R_Sash_02_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "L_UpperLip_Mid_01_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_LipCorner_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "M_Nose_FK_ctrl": {
+      "mirrorAxis": [
+        -1, 
+        1, 
+        1
+      ]
+    }, 
+    "L_BeltCloth_03_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "FKThumbFinger2_L": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKThumbFinger2_R": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }, 
+    "FKPinkyFinger1_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "L_Cheek_Out_FK_ctrl": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }, 
+    "IKToes_L": {
+      "mirrorAxis": [
+        1, 
+        1, 
+        -1
+      ]
+    }
+  }
+}

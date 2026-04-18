@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "ctime": "1685693768", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "bb:A_WEP_WP_OPE_1001_LV2_Idle:WEP_WP_OPE_1001RN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/WEP_WP_OPE_1001.ma", 
+        "namespace": ":bb:A_WEP_WP_OPE_1001_LV2_Idle", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/WEP_WP_OPE_1001.ma"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/A_OPE_1001_LV2_Idle_LV2.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "bb:A_WEP_WP_OPE_1001_LV2_Idle:Magazine_Main_FK_ctrl_grp": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": -22.9587595692282
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 5.315216174577944
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 17.64354634893197
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000000000000002
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.000000000000001
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -90.00000341509234
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -89.99999471192419
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 0.9999999999999984
+        }
+      }
+    }
+  }
+}

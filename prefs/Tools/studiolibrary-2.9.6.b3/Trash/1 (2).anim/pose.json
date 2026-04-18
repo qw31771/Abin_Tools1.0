@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/A_OPE_1001_LV2_Rload_LV1.mb", 
+    "angularUnit": "deg", 
+    "description": "", 
+    "endFrame": 282, 
+    "linearUnit": "cm", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "bbRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/WEP_WP_OPE_1001.ma", 
+        "namespace": ":bb", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u67aa\u68b0/\u9192\u72ee/OPE/lv3/MAYA/WEP_WP_OPE_1001.ma"
+      }
+    ], 
+    "user": "bazziwang", 
+    "startFrame": 141, 
+    "timeUnit": "ntscf", 
+    "mayaVersion": "2022", 
+    "ctime": "1685692376"
+  }
+,
+  "objects": {
+    "bb:move_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE1", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }
+      }
+    }, 
+    "bb:BoltQrnament_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "curve": "CURVE3", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "curve": "CURVE4", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "curve": "CURVE5", 
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "curve": "CURVE6", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "curve": "CURVE7", 
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "curve": "CURVE8", 
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "curve": "CURVE9", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "curve": "CURVE10", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateZ": {
+          "curve": "CURVE11", 
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "curve": "CURVE12", 
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}

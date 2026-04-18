@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "ctime": "1671262020", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "CHA_AGT_JE_AT_0001_DT_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u65b0\u624b\u5173 \u52a8\u753b\u8d44\u6e90/\u65b0\u624b\u51730.2/MAYA\u521d\u7248\u6570\u636e/CHA_AGT_JE_AT_0001_DT_Rig.ma", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u65b0\u624b\u5173 \u52a8\u753b\u8d44\u6e90/\u65b0\u624b\u51730.2/MAYA\u521d\u7248\u6570\u636e/CHA_AGT_JE_AT_0001_DT_Rig.ma"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/\u65b0\u624b\u5173/CP/\u7075\u732b/\u6700\u65b0\u6587\u4ef6/NGX_001_SC_09_JE_002.ma", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "Main_root": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 180.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }
+      }
+    }
+  }
+}

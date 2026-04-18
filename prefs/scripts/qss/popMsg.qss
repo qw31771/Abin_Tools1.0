@@ -1,0 +1,31 @@
+
+QDialog {
+                border-radius: 10px;
+                background-color: rgb(50,50,50);
+            }
+
+QLabel {
+                border: none;
+                font-family: "YouYuan"; 
+                font-size: 25px; 
+                color: rgb(255,255,255); 
+                border-radius: 5px; 
+            }
+
+QPushButton {
+                border-radius: 5px;
+                font-family: "YouYuan"; 
+                font-size: 25px; 
+                background-color: rgb(130,203,178);
+                color: white;
+                text-align: center;
+                padding: 10px;
+                transition: background-color 0.3s ease-in-out;
+                color: rgb(60,60,60); 
+            }
+QPushButton:hover {
+                background-color: rgb(130,250,178); /* 高亮颜色 */
+            }
+QPushButton:pressed {
+                background-color: rgb(50,50,50);
+            }

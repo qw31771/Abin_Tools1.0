@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "ctime": "1683512515", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "CHA_AGT_NE_AT_0001_DT_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/CHA_AGT_NE_AT_0001_DT_Rig.mb", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/CHA_AGT_NE_AT_0001_DT_Rig.mb"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_NE/MAYA/A_AGT_NE_Change_E01_D0.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "R_ChestPlate_FK_ctrl": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.2166634679431943
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": -0.20112528075749175
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.9021808926919167
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000003576279495
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0000003576279677
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 8.928389789980017
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": 9.25849587109903
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 1.447912025079479
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.000000238418671
+        }
+      }
+    }
+  }
+}

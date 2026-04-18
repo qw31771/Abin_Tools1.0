@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "ctime": "1682561578", 
+    "version": "1.0.0", 
+    "references": [
+      {
+        "node": "CHA_AGT_FA_DT_0001_RigRN", 
+        "unresolved": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_FA/MAYA/FA_RIG/CHA_AGT_FA_DT_0001_Rig.ma", 
+        "namespace": ":", 
+        "filename": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_FA/MAYA/FA_RIG/CHA_AGT_FA_DT_0001_Rig.ma"
+      }
+    ], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u6211\u7684\u6587\u4ef6/code-V/\u7279\u5de5/AGT_FA/CP/FA_RIG/A_AGT_FA_Change_B02_A00.mb", 
+    "mayaVersion": "2022", 
+    "description": ""
+  }
+,
+  "objects": {
+    "FKThumbFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999140033078
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999545066169
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 18.754645911155176
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -35.0835148576901
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 16.337743034479857
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000000983763904
+        }
+      }
+    }, 
+    "FKIndexFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999437937231
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999659641295
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 17.270521049541713
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -23.172071127924493
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -6.6336470204146165
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.00000005712846
+        }
+      }
+    }, 
+    "FKMiddleFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0000000062248031
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999666037509
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 17.76636619251954
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -27.589534503380342
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -15.848861526251238
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000000536624032
+        }
+      }
+    }, 
+    "FKRingFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999452600696
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999653322249
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -3.204272515758074
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -21.39264221426154
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 12.592799471034184
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000000562940177
+        }
+      }
+    }, 
+    "FKPinkyFinger1_L": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.0
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 0.9999999361341854
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 0.9999999642252144
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": 6.165225406200913
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -6.645013845492935
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": 30.32997446000554
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0000000665269135
+        }
+      }
+    }
+  }
+}

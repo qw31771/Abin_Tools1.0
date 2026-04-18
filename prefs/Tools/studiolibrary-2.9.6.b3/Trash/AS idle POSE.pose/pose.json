@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "ctime": "1668563050", 
+    "version": "1.0.0", 
+    "references": [], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "", 
+    "mayaVersion": "2022", 
+    "description": "AS idle POSE"
+  }
+,
+  "objects": {
+    "Skeleton": {
+      "attrs": {
+        "translateX": {
+          "type": "doubleLinear", 
+          "value": 2.719261971675979e-32
+        }, 
+        "translateY": {
+          "type": "doubleLinear", 
+          "value": 4.44089183380283e-16
+        }, 
+        "translateZ": {
+          "type": "doubleLinear", 
+          "value": 0.24653160572052002
+        }, 
+        "scaleX": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "scaleY": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "visibility": {
+          "type": "bool", 
+          "value": true
+        }, 
+        "AS_LeftHand_Show": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "rotateX": {
+          "type": "doubleAngle", 
+          "value": -0.0
+        }, 
+        "rotateY": {
+          "type": "doubleAngle", 
+          "value": -0.0
+        }, 
+        "rotateZ": {
+          "type": "doubleAngle", 
+          "value": -0.0
+        }, 
+        "scaleZ": {
+          "type": "double", 
+          "value": 1.0
+        }, 
+        "Roughness": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "AS_Cloth_Translate": {
+          "type": "double", 
+          "value": 0.0
+        }, 
+        "UseRightHandFBXASC063": {
+          "type": "double", 
+          "value": 0.0
+        }
+      }
+    }
+  }
+}

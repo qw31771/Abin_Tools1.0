@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "mirrorPlane": [
+      1, 
+      1, 
+      -1
+    ], 
+    "right": "", 
+    "description": "", 
+    "mayaVersion": "2022", 
+    "version": "1.0.0", 
+    "references": [], 
+    "user": "bazziwang", 
+    "mayaSceneFile": "C:/Users/bazziwang/Documents/WXWork/1688855216249834/WeDrive/\u817e\u8baf/\u65b0\u624b\u5173 \u52a8\u753b\u8d44\u6e90/\u65b0\u624b\u51730.2/MAYA\u521d\u7248\u6570\u636e/CHA_AGT_JE_AT_0001_DT_Rig.ma", 
+    "left": "*_L", 
+    "ctime": "1671262221"
+  }
+,
+  "objects": {
+    "FKHip_L": {
+      "mirrorAxis": [
+        1, 
+        -1, 
+        1
+      ]
+    }
+  }
+}
