@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "C:/Program Files/Autodesk/Maya2022/devkit/devkit/other/Python27/pymel/extras/completion/py",
+        "./tools/其他/CodeV/scripts/tabUI/tab2",
+        "./tools/其他/CodeV/scripts/tabUI/tab1"
+    ]
+}

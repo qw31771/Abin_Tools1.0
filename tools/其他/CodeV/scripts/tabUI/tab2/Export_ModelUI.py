@@ -17,6 +17,7 @@ class Tab_UI(QTabWidget):
         self._parent=parent
         self._parent.tab_widget = parent.tab_widget
         self.showState=None
+        self.path=parent.path_edit
         self.init()
         # 初始化事件管理器
         self.event_manager = EventManager()
@@ -89,18 +90,17 @@ class Tab_UI(QTabWidget):
         grid.addWidget(self.qxfx, 1, 1)
         grid.addWidget(self.fgfx, 2, 0)
         grid.addWidget(self.mp, 2, 1)
+        
 
-
-        # 将网格布局包装在一个垂直布局中（如果需要）
         content_layout = QVBoxLayout()
         content_layout.addLayout(grid)
-
         
         self.geometry_menu =AB_Maya.popWidgetMenu(" 几何体 ⊿",True,content_layout)
         set_layout = QVBoxLayout()
         set_layout.addLayout(self.geometry_menu)
-        set_layout.addWidget(AB_Maya.hLine())
 
+
+        set_layout.addWidget(AB_Maya.hLine())
         self.layout2.addLayout(set_layout)
 
     def createBox3_layout(self):
@@ -232,6 +232,7 @@ class Tab_UI(QTabWidget):
 
 
         self.export_btn=QPushButton('导出')
+        self.export_btn.setStyleSheet("color: rgb(0,0,0); font-size: 20px;background-color: rgb(200,200,200);font-weight: bold;")
         self.export_btn.setFixedHeight(60)
         self.layout4.addLayout(self.export_menu)
         self.layout4.addWidget(self.export_btn, alignment=Qt.AlignBottom)
@@ -256,7 +257,10 @@ class Tab_UI(QTabWidget):
         #设置
         self.set_menu.toggle_button.clicked.connect(self.settings.change_menu)
         self.yd.stateChanged.connect(self.settings.save_Preset)
-        self.xzyy.stateChanged.connect(self.settings.save_Preset)
+        def _handle_xzyy_changed():
+            self.settings.save_Preset()
+            self.on_exportUI_update()
+        self.xzyy.stateChanged.connect(_handle_xzyy_changed)
         self.srlj.stateChanged.connect(self.settings.save_Preset)
         self.zdx.stateChanged.connect(self.settings.save_Preset)
         self.zx.combo.currentIndexChanged.connect(self.settings.save_Preset)
@@ -326,6 +330,41 @@ class Tab_UI(QTabWidget):
         self.add_KeySets(key)
         self.settings.add_sets(key)
 
+    def get_KeySkeleton(self,name):
+        if not cmds.objExists(name):
+            return 
+        skin_clusters = cmds.ls(cmds.listHistory(name), type='skinCluster')
+        if not skin_clusters:
+            return 
+        influences = cmds.skinCluster(skin_clusters[0], query=True, influence=True)
+        root_joints = set()
+        for inf in influences:
+            if cmds.nodeType(inf) == 'joint':
+                full_path = cmds.ls(inf, l=True)[0]
+                path_nodes = [n for n in full_path.split('|') if n]
+                for node in path_nodes:
+                    if cmds.nodeType(node) == 'joint':
+                        root_joints.add(node)
+                        break
+        
+        if not root_joints:
+            return 
+
+        skeleton=list(root_joints)[0]
+        parent=cmds.listRelatives(skeleton, parent=True)
+        if parent:
+            if 'Skeleton' in parent[0]:
+                skeleton = parent[0]
+        return skeleton            
+
+    def see_outliner(self,name):
+        cmds.select(name, r=True)
+        all_panels = cmds.getPanel(allPanels=True)
+        for panel in all_panels:
+            panel_type = cmds.getPanel(typeOf=panel)
+            if panel_type == "outlinerPanel":
+                cmds.outlinerEditor(panel, edit=True,showSelected=1)
+
     def add_KeySets(self,key):
         shapesList = cmds.ls(type="mesh")
         if not shapesList:
@@ -344,8 +383,9 @@ class Tab_UI(QTabWidget):
         shapesList = cmds.ls(type="mesh")
         if not shapesList:
                     return
-        models = cmds.listRelatives(shapesList,parent=True,type="transform")
+        models = set(cmds.listRelatives(shapesList,parent=True,type="transform"))
         cotent=self.get_SetsItems()
+        print(cotent)
         for i in cotent:
             if not i['key']:
                 continue
@@ -374,19 +414,26 @@ class Tab_UI(QTabWidget):
         export=AB_Maya.checkBox(key,True,(255,30,20))
 
         combo_box = QComboBox()
-        view = combo_box.view()
-        view.setMinimumWidth(300) 
         if items:
             combo_box.addItems(items)
+        combo_box.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Fixed)
+        # 必须设置一个最小宽度，否则在极端压缩情况下会消失
+        combo_box.setMinimumWidth(80) 
+        
+        # --- 视图宽度设置 ---
+        # 即使本体很窄，下拉列表展开后也会有足够的宽度（例如 300px）展示长名字
+        combo_box.view().setMinimumWidth(300)
 
         setting=AB_Maya.imgButton(28,saveData.PATH.icon+"/使用.png","将选中物体重新设置到该集合")
         select=AB_Maya.imgButton(23,saveData.PATH.icon+"/搜索.png","选择并在大纲视图的浏览")
+        skeleton=AB_Maya.imgButton(23,saveData.PATH.icon+"/骨骼.png","选择并高亮骨骼")
         delete=AB_Maya.imgButton(30,saveData.PATH.icon+"/delete.png","删除该集合")
 
         content.addWidget(export)
         content.addWidget(combo_box,1)
         content.addWidget(setting)
         content.addWidget(select)
+        content.addWidget(skeleton)
         content.addWidget(delete)
 
         self.sets_content.addLayout(content,alignment= Qt.AlignCenter | Qt.AlignBottom)
@@ -402,17 +449,14 @@ class Tab_UI(QTabWidget):
             self.on_exportUI_update()
 
         def select_Layout():
-            try:
-                cmds.select(cmds.sets(key,q=1))
-                if items:
-                    all_panels = cmds.getPanel(allPanels=True)
-                    
-                    for panel in all_panels:
-                        panel_type = cmds.getPanel(typeOf=panel)
-                        if panel_type == "outlinerPanel":
-                            cmds.outlinerEditor(panel, edit=True,showSelected=1)
-            except:
-                pass
+            items = [combo_box.itemText(i) for i in range(combo_box.count())]
+            if items:
+                self.see_outliner(items)
+        
+        def select_skeleton():
+            skeleton=self.get_KeySkeleton(combo_box.currentText())
+            if skeleton:
+                self.see_outliner(skeleton)
 
         def delete_Layout():
             isDelete=content.count()
@@ -432,6 +476,7 @@ class Tab_UI(QTabWidget):
         self.on_exportUI_update()
         setting.clicked.connect(set_Layout)
         select.clicked.connect(select_Layout)
+        skeleton.clicked.connect(select_skeleton)
         delete.clicked.connect(lambda: self.yes_no(delete_Layout))
         
         combo_box.currentIndexChanged.connect(self.on_exportUI_update)
@@ -449,11 +494,12 @@ class Tab_UI(QTabWidget):
                         comboBox=layout.itemAt(1).widget()
                         isExport=export.isChecked()
                         name=comboBox.currentText()
+                        skeleton=self.get_KeySkeleton(name)
                         items = [comboBox.itemText(i) for i in range(comboBox.count())]
-                        msg={'export':isExport,'name':name,'content':items,'key':export.text(),'combo':layout.itemAt(1).widget()}
+                        msg={'export':isExport,'name':name,'content':items,'key':export.text(),'combo':layout.itemAt(1).widget(),'skeleton':skeleton}
                         contents.append(msg)
-                    except:
-                        pass
+                    except Exception as e:
+                        print(f"获取集合项时发生错误: {e}")
                     
         return contents
 
@@ -487,9 +533,6 @@ class Tab_UI(QTabWidget):
         self.sets_content.update()
             
     def on_selection_changed(self):
-        se=cmds.ls(sl=1)
-        if not se:
-            return
         self.on_exportUI_update()
 
     def on_export_changed(self):
@@ -499,7 +542,10 @@ class Tab_UI(QTabWidget):
     def on_exportUI_update(self):
         export=self.get_exportName()
         self.export_label.clear()
-        self.export_label.addItems(export['name'])
+        if not export:
+            return
+        if '' not  in export['name']:
+            self.export_label.addItems(export['name'])
 
     def get_exportName(self):
         model=self.select_model.currentText()
@@ -508,6 +554,7 @@ class Tab_UI(QTabWidget):
 
         names=[]
         export=[]
+        skeletons=[]
         
         if model == '集合导出':
             contents=self.get_SetsItems()
@@ -518,8 +565,10 @@ class Tab_UI(QTabWidget):
             for i in contents:
                 if not i['export'] or not i['content']:
                     continue
+                
                 names.append(i['name'])
                 export.append(i['content'])
+                skeletons.append(i['skeleton'])
 
         else:
             if model == '导出当前选择':
@@ -533,24 +582,35 @@ class Tab_UI(QTabWidget):
                 temp = cmds.listRelatives(shapesList,parent=True,type="transform")
 
             if files == '导出单个文件':
-                names.append(temp[0])
+                try:
+                    sigle=temp[0]
+                    skeletons.append(self.get_KeySkeleton(sigle))
+                except:
+                    sigle=''
+                    skeletons=''
+                names.append(sigle)
             else:
                 names=temp
+                for i in names:
+                    skeletons.append(self.get_KeySkeleton(i))
             
             export=temp
 
         names=self.set_exportName(names)
-        return {'name':names,'export':export}
+        return {'name':names,'export':export,'skeletons':skeletons}
  
     def set_exportName(self,export):
         prefix=self.export_input_prefix.text().strip()
         text=self.export_input_name.text().strip()
         suffix=self.export_input_suffix.text().strip()
         removes=[self.keys_content.item(i).text() for i in range(self.keys_content.count())]
-
+        xzyy=self.xzyy.isChecked()
         result=[]
 
         for i in range(len(export)):
+            if xzyy:
+                namespace = export[i].split(':')[0]+':'
+                export[i]=export[i].replace(namespace,'')
             if text:
                 temp=prefix+text+suffix
                 parts= re.split(r'(\d+)', temp, 1)
@@ -586,4 +646,11 @@ class Tab_UI(QTabWidget):
         export=self.get_exportName()
         if not export:
             return
-        self.script.model(export['name'],export['export'])
+        name=export['name']
+        exports=export['export']
+        if self.mp.isChecked():
+            sleleton=export['skeletons']
+        else:    
+            sleleton=''
+
+        self.script.model(name, exports,sleleton)

@@ -95,16 +95,16 @@ class AdhesiveWindow(QtWidgets.QDockWidget):
 
     def setBottomLayout(self):
         bottom_widget = QWidget()
-        bottom_widget.setObjectName("bottomWidget")
-        bottom_widget.setFixedHeight(50)  # 固定高度50
-        bottom_layout = QtWidgets.QHBoxLayout(bottom_widget)
-        # bottom_layout.setContentsMargins(5, 5, 5, 5)
+        bottom_widget.setFixedHeight(50)
+        bottom_layout = QVBoxLayout(bottom_widget)
+        bottom_layout.setContentsMargins(10, 0, 10, 0)  # 缩小边距
+        self.progress_bar = QProgressBar()
+        self.progress_bar.setTextVisible(True)
+        self.progress_bar.setAlignment(Qt.AlignCenter)
+        self.progress_text=QLabel("...")
         
-        # 示例：在底部区域添加状态标签（可替换为实际需要的控件）
-        self.status_label = QLabel("✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘ ✘")
-        bottom_layout.addWidget(self.status_label)  # 状态标签居右
-        self.status_label.setAlignment(Qt.AlignCenter)
-
+        bottom_layout.addWidget(self.progress_text)
+        bottom_layout.addWidget(self.progress_bar)
         self.main_layout.addWidget(bottom_widget)
 
 

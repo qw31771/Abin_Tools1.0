@@ -395,6 +395,15 @@ def getADVFKCtrl(ADVFkCtrl=[],ctrl = True,pre="model"):
         ("Fish1:FKBodyFinLowerB1_L",pre + ":Fish1_finback01_L"),("Fish1:FKBodyFinLowerB2_L",pre + ":Fish1_finback02_L"),
         ("Fish1:FKBodyFinLowerB1_R",pre + ":Fish1_finback01_R"),("Fish1:FKBodyFinLowerB2_R",pre + ":Fish1_finback02_R"),
     ]
+
+    _1017Ctrl=[
+        ("Chain2_bind1_ctrl", pre + ":Chain_jnt_2"),
+        ("Chain_bind1_ctrl", pre + ":Chain_jnt_2"),("Chain_bind2_ctrl", pre + ":Chain_jnt_5"),("Chain_bind3_ctrl", pre + ":Chain_jnt_8"),
+        ("Chain2_bind2_ctrl", pre + ":Chain_jnt_9"),
+        ("Chain2_bind3_ctrl", pre + ":Chain_jnt_12"),
+        ("Chain2_bind4_ctrl", pre + ":Chain_jnt_15"),
+
+    ]
     
     #GE道具特殊
     shapesList = cmds.ls(type="mesh")
@@ -402,6 +411,7 @@ def getADVFKCtrl(ADVFkCtrl=[],ctrl = True,pre="model"):
     isGe_Q=False
     isHorse=False
     isFish=False
+    is1017=False
     for i in transformList:
         if "CHA_AGT_GE_AbilityQ" in i:
             print("ge技能Q道具")
@@ -415,6 +425,10 @@ def getADVFKCtrl(ADVFkCtrl=[],ctrl = True,pre="model"):
             print("鱼")
             isFish=True
             break
+        elif "MEL_1017" in i:
+            print("MEL_1017")
+            is1017=True
+            break
 
     if isGe_Q:
         resetCtrl = SpineFkCtrl+ADVFkCtrl + geFkCtrl 
@@ -426,6 +440,9 @@ def getADVFKCtrl(ADVFkCtrl=[],ctrl = True,pre="model"):
 
     if isFish:
         resetCtrl=ADVFkCtrl+FishFkCtrl
+    
+    if is1017:
+        resetCtrl= _1017Ctrl+ADVFkCtrl
 
 
 

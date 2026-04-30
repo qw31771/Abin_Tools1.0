@@ -9,6 +9,7 @@ import Export_AnimUI
 import ExportScript
 import AB_Maya
 import saveData
+import os
 reload(Export_ModelUI)
 reload(Export_AnimUI)
 reload(ExportScript)
@@ -61,13 +62,19 @@ class Tab_UI(QTabWidget):
         # 路径选择按钮（移除固定高度）
         self.path_btn = QPushButton("选择路径")
         self.ref_btn = QPushButton("刷新")
+        self.open_btn = QPushButton("")
+        icon = QIcon(saveData.PATH.icon+"/打开文件夹.png")
+        self.open_btn.setIcon(icon)
         self.path_btn.setMinimumHeight(45)  # 仅设置最小高度
         self.ref_btn.setMinimumHeight(45)  # 仅设置最小高度
+        self.open_btn.setMinimumHeight(45)  # 仅设置最小高度
         self.path_btn.setStyleSheet("color: rgb(0,0,0); font-size: 20px;background-color: rgb(200,200,200);font-weight: bold;")
         self.ref_btn.setStyleSheet("color: rgb(0,0,0); font-size: 20px;background-color: rgb(200,200,200);font-weight: bold;")
+        self.open_btn.setStyleSheet("color: rgb(0,0,0); font-size: 20px;background-color: rgb(200,200,200);font-weight: bold;")
         btn_layout = QHBoxLayout()
         btn_layout.addWidget(self.path_btn,3)
         btn_layout.addWidget(self.ref_btn,1)
+        btn_layout.addWidget(self.open_btn,0.7)
         layout.addLayout(btn_layout, alignment=Qt.AlignTop)  # 顶部对齐
 
         self.box1.setMinimumHeight(45)  # 设置合理的最小高度
@@ -95,7 +102,6 @@ class Tab_UI(QTabWidget):
         self.tab_anim=Export_ModelUI.Tab_UI(self)
         self.tab_model=Export_AnimUI.Tab_UI(self)
         
-
         self.setPath()
         layout.addWidget(self.tab_widget)
         layout.setMargin(0)
@@ -106,6 +112,7 @@ class Tab_UI(QTabWidget):
         self.path_btn.clicked.connect(self.browse_path)
         self.ref_btn.clicked.connect(self.setPath)
         self.tab_widget.currentChanged.connect(self.setPath)
+        self.open_btn.clicked.connect(lambda:os.startfile(self.path_edit.toPlainText()))
         
     def browse_path(self):
         """打开路径选择对话框"""
