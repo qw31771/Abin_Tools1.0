@@ -10,10 +10,14 @@ import ExportScript
 import AB_Maya
 import saveData
 import os
+import Export_ModelSettings
+import Export_AnimSettings  
 reload(Export_ModelUI)
 reload(Export_AnimUI)
 reload(ExportScript)
-reload(saveData)
+reload(Export_ModelSettings)
+reload(Export_AnimSettings)
+from saveData import  常用配置
 
 class Tab_UI(QTabWidget):
     def __init__(self, parent):
@@ -21,6 +25,7 @@ class Tab_UI(QTabWidget):
 
         self._parent = parent
         self.scenceFile=AB_Maya.scencePath()
+        self.config=AB_Maya.getConfig('AB_Tool')
         self.init()
         self.createBox1_layout()
         self.createBox2_layout()
@@ -101,6 +106,11 @@ class Tab_UI(QTabWidget):
 
         self.tab_anim=Export_ModelUI.Tab_UI(self)
         self.tab_model=Export_AnimUI.Tab_UI(self)
+
+        try:
+            self.tab_widget.setCurrentIndex(int(self.config.value(常用配置.模型_动画表头.value)))
+        except:
+            self.save_tab_memory(0)
         
         self.setPath()
         layout.addWidget(self.tab_widget)
@@ -113,6 +123,7 @@ class Tab_UI(QTabWidget):
         self.ref_btn.clicked.connect(self.setPath)
         self.tab_widget.currentChanged.connect(self.setPath)
         self.open_btn.clicked.connect(lambda:os.startfile(self.path_edit.toPlainText()))
+        self.tab_widget.currentChanged.connect(self.save_tab_memory)
         
     def browse_path(self):
         """打开路径选择对话框"""
@@ -128,10 +139,12 @@ class Tab_UI(QTabWidget):
     def setPath(self):
         current_idx = self.tab_widget.currentIndex()
         if current_idx == 0 : 
-            path=self.scenceFile+'/FBX'
+            path=AB_Maya.scencePath()+'/FBX'
         else:
-            path=self.scenceFile+'/Anim'
+            path=AB_Maya.scencePath()+'/Anim'
 
         self.path_edit.setPlainText(path)
 
+    def save_tab_memory(self,index):
+        self.config.setValue(常用配置.模型_动画表头.value,index)
     

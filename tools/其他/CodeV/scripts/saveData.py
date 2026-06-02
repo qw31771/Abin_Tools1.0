@@ -16,7 +16,10 @@ class PATH:
 
     export_presets=setting+"/导出预设"
 
-
+class 常用配置(Enum):
+    """常用配置枚举"""
+    表头='bt'
+    模型_动画表头='mxdh'
 
 class 导出配置键(Enum):
     """配置文件键名枚举"""
@@ -28,7 +31,9 @@ class 导出配置键(Enum):
     关键词列表 = "keys"
     集合弹窗 = "sets_pop"
     导出弹窗 = "export_pop"
-    
+
+    导出弹窗_动画 = "export_pop"
+    设置弹窗_动画 = "set_pop"
 
 class 导出预设配置键(Enum):
     """预设配置键名枚举"""
@@ -43,12 +48,18 @@ class 导出预设配置键(Enum):
     删除引用 = "scyy"
     输入连接 = "srlj"
     子对象 = "zdx"
-    上方轴向 = "sfzx"
+    上方轴向_模型 = "sfzx"
 
     导出集合 = "sets"
 
     导出模式 = "export_model"
     导出文件 = "export_files"
 
-
+    #动画
+    导出选择 = "export_select"
+    移动到原点 = "yd"
+    烘焙动画 = "hbdh"
+    上方轴向_动画 = "sfzx"
+    模式_动画 = "export_model"
+    跳过骨骼 = "skip_joints"
 

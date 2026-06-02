@@ -148,6 +148,7 @@ class titleComboBox(QHBoxLayout):
         super().__init__(parent)
         self.setContentsMargins(margins[0], margins[1], margins[2], margins[3])
         label = QLabel(title)
+        label.setStyleSheet("font-weight: bold;")
         self.combo = QComboBox()
         self.combo.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)  # 设置水平扩展
         item=menu
@@ -169,6 +170,7 @@ class titleTextEdit(QHBoxLayout):
             self.textE.setFocusPolicy(Qt.NoFocus)
         if title:
             label = QLabel(title)
+            label.setStyleSheet("font-weight: bold;")
             self.addWidget(label)
         self.addWidget(self.textE)
 

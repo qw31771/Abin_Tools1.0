@@ -17,10 +17,11 @@ class Export:
         xzyy=int(self.data.xzyy.isChecked())
         
         count = len(names)
+        percent = 0
+        AB_Maya.set_progress_range(0, count)
         for i in range(count):
             name = names[i]
             
-            # --- 1. 准备导出列表 (你原有的逻辑) ---
             if count == 1:
                 export = []    
                 for j in exports:
@@ -35,20 +36,22 @@ class Export:
                 else:
                     export = [export, skeletons[i]]
             cmds.select(export, r=True)
+            AB_Maya.update_progress(0, f"[{i+1}/{count}] 导出: {name}")
             try:
-                with AB_Maya.StripNamespace(export,enabled=xzyy) as stripped_nodes:
-                    se=cmds.ls(sl=1)
-                    # 拼接完整路径
-                    # 计算百分比并更新
-                    current_progress = int((i / float(count)) * 100)
-                    AB_Maya.update_progress(current_progress, f"正在导出: {name}")
+                with AB_Maya.StripNamespace(export,enabled=xzyy,strip_prefix='_') as stripped_nodes:
+                    percent += 0.5
+                    AB_Maya.update_progress(percent, f"[{i+1}/{count}] 导出: {name}")
                     full_path = f"{path}/{name}.fbx"
                     cmds.file(full_path, force=True, options="v=0;", type="FBX export", exportSelected=True)
+                    percent += 0.5
+                    AB_Maya.update_progress(percent, f"[{i+1}/{count}] 导出: {name}")
                     
             except Exception as e:
                 print(f"导出过程中发生错误 [{name}]: {e}")
+
             
-        AB_Maya.update_progress(100, "所有模型导出成功!", True)
+
+        AB_Maya.update_progress(100, f"[{i+1}/{count}] 完成: {name}")
                 
 
     def exists_path(self,path):

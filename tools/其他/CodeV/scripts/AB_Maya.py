@@ -4,8 +4,9 @@ import maya.OpenMaya as om
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
-from shiboken2 import wrapInstance
+from PySide2 import QtWidgets
 import os
+import saveData
 from importlib import reload
 import CustomUI
 reload(CustomUI)
@@ -59,7 +60,6 @@ def titleComboBox(title,combo,margins=[0,0,0,0])-> QHBoxLayout:
     return menu
 
 
-
 class StripNamespace(object):
     @classmethod
     def as_name(cls, uuid):
@@ -71,7 +71,7 @@ class StripNamespace(object):
         else:
             return None
 
-    def __init__(self, unparent,enabled=True):
+    def __init__(self, unparent,enabled=True,strip_prefix=None):
         self.original_names = {}  # (UUID, name_within_namespace)
         self.parent = {}
         if enabled and unparent and unparent[0].find(':') != -1:
@@ -79,7 +79,8 @@ class StripNamespace(object):
             self.namespace = cmds.namespaceInfo(namespace, fn=True)
         else:
             self.namespace = ''
-
+        
+        self.strip_prefix=strip_prefix
         self.unparent = unparent
 
     def toMObject(self, node):
@@ -124,6 +125,44 @@ class StripNamespace(object):
                         api_node.setName(without_namespace)
                     except:
                         pass
+        
+        if self.strip_prefix:
+            # 收集所有目标节点（item + 后代）
+            all_nodes = [item]
+            descendants = cmds.listRelatives(item, allDescendents=True, fullPath=True)
+            if descendants:
+                all_nodes.extend(descendants)
+
+            # 第一步：获取每个节点的 MObject 和当前短名
+            node_data = []  # (mobj, short_name, full_path)
+            for full_path in all_nodes:
+                if not cmds.objExists(full_path):
+                    continue
+                try:
+                    selList = om.MSelectionList()
+                    mobj = om.MObject()
+                    om.MGlobal.getSelectionListByName(full_path, selList)
+                    selList.getDependNode(0, mobj)
+                    api_node = om.MFnDependencyNode(mobj)
+                    short_name = full_path.split('|')[-1]
+                    if short_name.startswith(self.strip_prefix):
+                        node_data.append((mobj, short_name, api_node))
+                except:
+                    pass
+
+            # 第二步：统一重命名（此时所有节点都已通过 MObject 锁定）
+            for mobj, short_name, api_node in node_data:
+                try:
+                    new_short = short_name[len(self.strip_prefix):]
+                    if not new_short:
+                        continue
+                    uuid = api_node.uuid().asString()
+                    if uuid not in self.original_names:
+                        self.original_names[uuid] = api_node.name()
+                    api_node.setName(new_short)
+                except:
+                    pass
+
 
         return [self.as_name(uuid) for uuid in self.original_names]
 
@@ -152,31 +191,64 @@ class StripNamespace(object):
 
 # GeneralFunc.py 
 
-import maya.OpenMayaUI as omui
-from PySide2 import QtWidgets
+_UI_PROGRESS_BAR = None  # 你的插件界面进度条
+_MAYA_PROGRESS_BAR = None # Maya 底层进度条
 
-def update_progress(value, text=None, visible=True):
-    """
-    全局进度条更新接口
-    :param value: 0-100 的整数
-    :param text: 进度条显示的文本描述
-    :param visible: 是否显示进度条
-    """
-    # 1. 获取 Maya 主窗口句柄
-    main_window_ptr = omui.MQtUtil.mainWindow()
-    main_window = wrapInstance(int(main_window_ptr), QtWidgets.QMainWindow)
+def register_progress_bar(bar_instance):
+    global _UI_PROGRESS_BAR, _MAYA_PROGRESS_BAR
+    _UI_PROGRESS_BAR = bar_instance
+    # 同时获取 Maya 主进度条
+    _MAYA_PROGRESS_BAR = mel.eval('$tmp = $gMainProgressBar')
+
+def set_progress_range(min_val=0, max_val=100):
+    global _UI_PROGRESS_BAR, _MAYA_PROGRESS_BAR
+    # 设置插件 UI 范围
+    if _UI_PROGRESS_BAR:
+        _UI_PROGRESS_BAR.setRange(min_val, max_val)
+    # 设置 Maya 状态栏范围
+    if _MAYA_PROGRESS_BAR:
+        cmds.progressBar(_MAYA_PROGRESS_BAR, edit=True, beginProgress=True, 
+                         isInterruptable=True, minValue=min_val, maxValue=max_val)
+
+def update_progress(value, text=None):
+    global _UI_PROGRESS_BAR, _MAYA_PROGRESS_BAR
     
-    # 2. 查找我们的 AdhesiveWindow (DockWidget)
-    # 注意：这里查找的是类中定义的 QDockWidget 对象
-    window = main_window.findChild(QtWidgets.QDockWidget, "Abin_CodeV") 
-    # 如果你在 UI 类里没设置 ObjectName，可以根据 WindowTitle 找，
-    # 或者在 AdhesiveWindow.__init__ 里加上 self.setObjectName("AbinCodeV_Main")
-    
-    if window and hasattr(window, 'progress_bar'):
-        window.progress_bar.setVisible(visible)
-        window.progress_bar.setValue(value)
-        if text:
-            window.progress_bar.setFormat(f"{text}  %p%")
+    # 更新插件界面上的进度条
+    if _UI_PROGRESS_BAR:
+        try:
+            _UI_PROGRESS_BAR.setValue(int(value))
+            if text:
+                _UI_PROGRESS_BAR.setFormat(f"{text}  %p%")
+        except: pass
+
+    # 更新 Maya 状态栏进度条
+    if _MAYA_PROGRESS_BAR:
+        try:
+            if cmds.progressBar(_MAYA_PROGRESS_BAR, query=True, isCancelled=True):
+                cmds.progressBar(_MAYA_PROGRESS_BAR, edit=True, endProgress=True)
+                raise RuntimeError("用户取消了操作")
+            cmds.progressBar(_MAYA_PROGRESS_BAR, edit=True, progress=int(value))
+            if text:
+                cmds.progressBar(_MAYA_PROGRESS_BAR, edit=True, status=text)
+        except: pass
         
-        # 强制处理界面事件，防止 Maya 在计算时 UI 假死
-        QtWidgets.QApplication.processEvents()
+    # 强制刷新 UI，这是进度条会动的核心
+    QtWidgets.QApplication.processEvents()
+
+def end_progress():
+    global _MAYA_PROGRESS_BAR
+    if _MAYA_PROGRESS_BAR:
+        cmds.progressBar(_MAYA_PROGRESS_BAR, edit=True, endProgress=True)
+
+
+def getConfig(name,path=saveData.PATH.setting)->QSettings:
+    config_path=os.path.join(path, name+".ini")
+    config=QSettings(config_path, QSettings.IniFormat)
+    config.setIniCodec('UTF-8')
+    return config
+
+def toList(value):
+        if isinstance(value, list):
+            return value  
+        else:
+            return [value] 

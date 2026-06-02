@@ -1576,6 +1576,7 @@ string $tempString[];
 if (!`objExists ($nameSpace+$endJoint)`)
 	return $toesJoint;
 $tempString=`listRelatives -type joint -ad ($nameSpace+$endJoint)`;
+print ($tempString);
 for ($i=0;$i<size($tempString);$i++)
 	{
 	if (`getAttr ($tempString[$i]+".drawLabel")`)

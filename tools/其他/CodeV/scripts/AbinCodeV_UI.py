@@ -14,6 +14,7 @@ import ExportUI
 reload(ExportUI)
 import saveData
 reload(saveData)
+from saveData import  常用配置
 
 def get_maya_main_window():
     main_window_ptr = omui.MQtUtil.mainWindow()
@@ -23,13 +24,15 @@ class AdhesiveWindow(QtWidgets.QDockWidget):
     def __init__(self, parent=get_maya_main_window()):
         super(AdhesiveWindow, self).__init__(parent)
         parent.addDockWidget(QtCore.Qt.RightDockWidgetArea, self)
-
+        self.config=AB_Maya.getConfig('AB_Tool')
         self.init_ui()
         # 初始化事件管理器
         self.event_manager = EventManager()
 
         #创建布局
         self.create_layout()
+
+        self.create_connections()
 
     def init_ui(self):
         self.setWindowTitle("Abin_CodeV")
@@ -91,21 +94,23 @@ class AdhesiveWindow(QtWidgets.QDockWidget):
         """)
         self.tab1=GeneralFunc.Tab_UI(self.tab_widget)
         self.tab2=ExportUI.Tab_UI(self.tab_widget)
+        
+        try:
+            self.tab_widget.setCurrentIndex(int(self.config.value(常用配置.表头.value)))
+        except:
+            self.save_tab_memory(0)
         self.main_layout.addWidget(self.tab_widget)
 
+
     def setBottomLayout(self):
-        bottom_widget = QWidget()
-        bottom_widget.setFixedHeight(50)
-        bottom_layout = QVBoxLayout(bottom_widget)
-        bottom_layout.setContentsMargins(10, 0, 10, 0)  # 缩小边距
         self.progress_bar = QProgressBar()
+        self.progress_bar.setFixedHeight(50)
+        self.progress_bar.setValue(0)
         self.progress_bar.setTextVisible(True)
         self.progress_bar.setAlignment(Qt.AlignCenter)
-        self.progress_text=QLabel("...")
-        
-        bottom_layout.addWidget(self.progress_text)
-        bottom_layout.addWidget(self.progress_bar)
-        self.main_layout.addWidget(bottom_widget)
+        self.progress_bar.setFormat("准备就绪")
+        AB_Maya.register_progress_bar(self.progress_bar)
+        self.main_layout.addWidget(self.progress_bar)
 
 
     def closeEvent(self, event):
@@ -113,10 +118,12 @@ class AdhesiveWindow(QtWidgets.QDockWidget):
         if hasattr(self, 'event_manager'):
             self.event_manager.unregister_all_observers()  # 确保注销所有回调
 
-
-    
+    def create_connections(self):
+        self.tab_widget.currentChanged.connect(self.save_tab_memory)
   
 
+    def save_tab_memory(self,index):
+        self.config.setValue(常用配置.表头.value,index)
 
 def Show():
   global AbinCodeV_UI

@@ -3,13 +3,13 @@ import saveData
 import maya.cmds as cmds
 from PySide2.QtCore import QSettings
 from saveData import  导出配置键, 导出预设配置键
-
+import AB_Maya
 
 
 class ExportSettings:
     def __init__(self,data):
-        config_path = os.path.join(saveData.PATH.setting, '导出设置.ini')
-        self.set_config=self.getConfig('导出设置',saveData.PATH.setting)
+        config_path = os.path.join(saveData.PATH.setting, '导出设置_模型.ini')
+        self.set_config=AB_Maya.getConfig('导出设置_模型')
         self.data=data
         self.test=0
         if not os.path.isfile(config_path):
@@ -26,7 +26,7 @@ class ExportSettings:
         self.set_config.setValue(导出配置键.移除弹窗.value, 0)
         self.set_config.setValue(导出配置键.集合弹窗.value, 0)
         self.set_config.setValue(导出配置键.导出弹窗.value, 1)
-        config=self.getConfig(preset)
+        config=AB_Maya.getConfig(preset,saveData.PATH.export_presets)
         config.setValue(导出预设配置键.平滑组.value,1)
         config.setValue(导出预设配置键.三角化.value,0)
         config.setValue(导出预设配置键.平滑网络.value,0)
@@ -37,29 +37,17 @@ class ExportSettings:
         config.setValue(导出预设配置键.删除引用.value,1)
         config.setValue(导出预设配置键.输入连接.value,0)
         config.setValue(导出预设配置键.子对象.value,1)
-        config.setValue(导出预设配置键.上方轴向.value,0)
+        config.setValue(导出预设配置键.上方轴向_模型.value,0)
         config.setValue(导出预设配置键.导出模式.value,0)
         config.setValue(导出预设配置键.导出文件.value,0)
 
-    def getConfig(self,name,path=saveData.PATH.export_presets)->QSettings:
-        config_path=os.path.join(path, name+".ini")
-        config=QSettings(config_path, QSettings.IniFormat)
-        config.setIniCodec('UTF-8')
-
-        return config
-
-    def toList(self,value):
-        if isinstance(value, list):
-            return value  
-        else:
-            return [value] 
     
     def add_Preset(self):
         presets=self.get_Presets()
         name=self.data.get_Text('添加预设',presets)
         if not name:
             return
-        config=self.getConfig(name)
+        config=AB_Maya.getConfig(name,saveData.PATH.export_presets)
         presets.append(name)
         self.set_config.setValue(导出配置键.预设列表.value, presets)
         config.setValue(导出预设配置键.平滑组.value,1)
@@ -72,7 +60,7 @@ class ExportSettings:
         config.setValue(导出预设配置键.删除引用.value,1)
         config.setValue(导出预设配置键.输入连接.value,0)
         config.setValue(导出预设配置键.子对象.value,1)
-        config.setValue(导出预设配置键.上方轴向.value,0)
+        config.setValue(导出预设配置键.上方轴向_模型.value,0)
         config.setValue(导出预设配置键.导出模式.value,0)
         config.setValue(导出预设配置键.导出文件.value,0)
 
@@ -83,7 +71,7 @@ class ExportSettings:
 
     def load_Preset(self):
         prese=self.data.setting_combo_box.currentText()
-        currentConfig=self.getConfig(prese)
+        currentConfig=AB_Maya.getConfig(prese,saveData.PATH.export_presets)
         self.Loading=True
 
         self.data.phz.setChecked(int(currentConfig.value(导出预设配置键.平滑组.value)))
@@ -96,7 +84,7 @@ class ExportSettings:
         self.data.xzyy.setChecked(int(currentConfig.value(导出预设配置键.删除引用.value)))
         self.data.srlj.setChecked(int(currentConfig.value(导出预设配置键.输入连接.value)))
         self.data.zdx.setChecked(int(currentConfig.value(导出预设配置键.子对象.value)))
-        self.data.zx.combo.setCurrentIndex(int(currentConfig.value(导出预设配置键.上方轴向.value))) 
+        self.data.zx.combo.setCurrentIndex(int(currentConfig.value(导出预设配置键.上方轴向_模型.value))) 
         self.data.select_model.setCurrentIndex(int(currentConfig.value(导出预设配置键.导出模式.value))) 
         self.data.export_fils.setCurrentIndex(int(currentConfig.value(导出预设配置键.导出文件.value)))
         self.data.delete_Sets(True)
@@ -117,7 +105,7 @@ class ExportSettings:
         if self.Loading:
             return
         
-        currentConfig=self.getConfig(self.current_prese)
+        currentConfig=AB_Maya.getConfig(self.current_prese,saveData.PATH.export_presets)
         currentConfig.setValue(导出预设配置键.平滑组.value,int(self.data.phz.isChecked()))
         currentConfig.setValue(导出预设配置键.三角化.value,int(self.data.sjh.isChecked()))
         currentConfig.setValue(导出预设配置键.平滑网络.value,int(self.data.phwl.isChecked()))
@@ -128,13 +116,13 @@ class ExportSettings:
         currentConfig.setValue(导出预设配置键.删除引用.value,int(self.data.xzyy.isChecked()))
         currentConfig.setValue(导出预设配置键.输入连接.value,int(self.data.srlj.isChecked()))
         currentConfig.setValue(导出预设配置键.子对象.value,int(self.data.zdx.isChecked()))
-        currentConfig.setValue(导出预设配置键.上方轴向.value,self.data.zx.combo.currentIndex())
+        currentConfig.setValue(导出预设配置键.上方轴向_模型.value,self.data.zx.combo.currentIndex())
         currentConfig.setValue(导出预设配置键.导出模式.value,self.data.select_model.currentIndex())
         currentConfig.setValue(导出预设配置键.导出文件.value,self.data.export_fils.currentIndex())
 
     def get_Presets(self):
         temp=self.set_config.value(导出配置键.预设列表.value) or []
-        values=self.toList(temp)
+        values=AB_Maya.toList(temp)
         return values
     
     def rename_Preset(self):
@@ -207,7 +195,7 @@ class ExportSettings:
 
     def get_Keys(self):
         temp=self.set_config.value(导出配置键.关键词列表.value) or []
-        values=self.toList(temp)
+        values=AB_Maya.toList(temp)
         return values
      
     def add_Keys(self):
@@ -243,21 +231,21 @@ class ExportSettings:
         self.set_config.setValue(导出配置键.关键词列表.value,keys)
 
     def add_sets(self,key):
-        currentConfig=self.getConfig(self.current_prese)
+        currentConfig=AB_Maya.getConfig(self.current_prese,saveData.PATH.export_presets)
         sets=self.get_Sets()
         sets.append(key)
         currentConfig.setValue(导出预设配置键.导出集合.value,sets)
 
     def get_Sets(self):
-        currentConfig=self.getConfig(self.current_prese)
+        currentConfig=AB_Maya.getConfig(self.current_prese,saveData.PATH.export_presets)
         temp=currentConfig.value(导出预设配置键.导出集合.value) or []
-        values=self.toList(temp)
+        values=AB_Maya.toList(temp)
         return values
 
     def remove_Sets(self,key=''):
         if not key:
             return
-        currentConfig=self.getConfig(self.current_prese)
+        currentConfig=AB_Maya.getConfig(self.current_prese,saveData.PATH.export_presets)
         sets=self.get_Sets()
         sets.remove(key)
         currentConfig.setValue(导出预设配置键.导出集合.value,sets)

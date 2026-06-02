@@ -6,7 +6,7 @@ import maya.cmds as cmds
 import AB_Maya
 from EventManager import EventManager
 import re
-import ExportSettings
+import Export_ModelSettings
 import ExportScript 
 
 
@@ -22,7 +22,7 @@ class Tab_UI(QTabWidget):
         # 初始化事件管理器
         self.event_manager = EventManager()
         # 初始化配置
-        self.settings =ExportSettings.ExportSettings(self)
+        self.settings =Export_ModelSettings.ExportSettings(self)
         self.script =ExportScript.Export(self)
         self.create_connections()
 
@@ -380,6 +380,7 @@ class Tab_UI(QTabWidget):
         self.create_KeySets(items,key)  
 
     def ref_KeySets(self):
+        self._parent.setPath()
         shapesList = cmds.ls(type="mesh")
         if not shapesList:
                     return
